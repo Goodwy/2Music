@@ -1,0 +1,10 @@
+2Music
+
+2Music is an open source music player.
+
+Features:
+- no ads
+- simple design
+- customizability
+
+Based on an open source application Phonograph.

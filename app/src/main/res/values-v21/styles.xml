@@ -1,0 +1,45 @@
+<resources>
+
+    <style name="Theme.2Music" parent="Theme.2Music.Base.Dark">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+
+    <style name="Theme.2Music.NoDivider" parent="Theme.2Music.Base.Dark.NoDivider">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+
+    <style name="Theme.2Music.Light" parent="Theme.2Music.Base.Light">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+
+    <style name="Theme.2Music.Light.NoDivider" parent="Theme.2Music.Base.Light.NoDivider">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+
+    <style name="Theme.2Music.Black" parent="Theme.2Music.Base.Black">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+
+    <style name="Theme.2Music.Black.NoDivider" parent="Theme.2Music.Base.Black.NoDivider">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+
+    <style name="Theme.2Music.Notification" parent="@android:style/TextAppearance.Material.Notification" />
+
+    <style name="Theme.2Music.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title" />
+
+    <style name="Fab" parent="FabParent">
+        <item name="android:transitionName">@string/transition_fab</item>
+    </style>
+
+    <style name="MusicProgressSlider" parent="MusicProgressSliderParent">
+        <item name="android:padding">0dp</item>
+    </style>
+
+</resources>
