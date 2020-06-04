@@ -98,7 +98,7 @@
     <string name="action_show_lyrics">Показати текст</string>
     <string name="light_theme_name">Світла</string>
     <string name="dark_theme_name">Темна</string>
-    <string name="black_theme_name">Чорна (AMOLED)</string>
+    <string name="black_theme_name">Чорна</string>
     <string name="always">Завжди</string>
     <string name="only_on_wifi">Тільки через Wi-Fi</string>
     <string name="never">Ніколи</string>
@@ -130,6 +130,7 @@
     <string name="pref_title_last_added_interval">Інтервал останнього доданого списку відтворення</string>
     <string name="pref_title_synchronized_lyrics_show">Показати синхронізований текст пісні</string>
     <string name="pref_title_remember_last_tab">Запам‘ятати останню вкладку</string>
+    <string name="pref_title_remember_shuffle">Запам\'ятати перемішування</string>
     <string name="no_equalizer">Еквалайзер не знайдено.</string>
     <string name="no_audio_ID">"Спочатку відтворіть пісню, потім спробуйте ще раз."</string>
     <string name="delete_action">Видалити</string>
@@ -141,8 +142,8 @@
     <string name="x_selected">Вибрано {%1$d}</string>
     <string name="primary_color">Основний колір</string>
     <string name="accent_color">Колір підкреслення</string>
-    <string name="primary_color_desc">Основний колір теми, стандартно синій.</string>
-    <string name="accent_color_desc">Акцентований колір теми, стандартно рожевий.</string>
+    <string name="primary_color_desc">Основний колір теми.</string>
+    <string name="accent_color_desc">Акцентований колір теми.</string>
     <string name="update_image">Оновити зображення</string>
     <string name="playlist_empty_text">Порожній список відтворення</string>
     <string name="no_playlists">Немає списків відтворення</string>
@@ -163,7 +164,8 @@
     <string name="pref_summary_colored_app_shortcuts">Фарбує ярлики додатків у переважний колір.</string>
     <string name="pref_summary_audio_ducking">Повiдомлення, навiгацiя, т.д.</string>
     <string name="pref_summary_synchronized_lyrics_show">Наразі підтримується тільки синхронізований текст у форматі LCR як вбудований або окремий файл.</string>
-    <string name="pref_summary_remember_last_tab">Перейдіть до останньої відкритої вкладки, щоб запустити</string>
+    <string name="pref_summary_remember_last_tab">Перейдіть до останньої відкритої вкладки, щоб запустити.</string>
+    <string name="pref_summary_remember_shuffle">Режим перемішування залишиться включеним при виборі нового списку пісень.</string>
     <string name="could_not_download_album_cover">"\u041d\u0435 \u0432\u0434\u0430\u043b\u043e\u0441\u044f \u0437\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0438\u0442\u0438 \u0432\u0456\u0434\u043f\u043e\u0432\u0456\u0434\u043d\u0443 \u043e\u0431\u043a\u043b\u0430\u0434\u0438\u043d\u043a\u0443 \u0430\u043b\u044c\u0431\u043e\u043c\u0443."</string>
     <string name="search_hint">Пошук бібліотеки...</string>
     <string name="favorites">Улюблені</string>
@@ -249,6 +251,10 @@
     <string name="bug_report_failed">Не вдалося надіслати звіт</string>
     <string name="bug_report_failed_wrong_credentials">Неправильне ім’я користувача або пароль</string>
     <string name="bug_report_failed_invalid_token">Недійсний токен доступу. Зв’яжіться з розробником додатка.</string>
+    <string name="only_the_first_5_colors_available">Тільки перші 6 кольорів доступні в безкоштовній версії.</string>
+    <string name="black_theme_is_a_pro_feature">Ця тема - функція 2Music Pro.</string>
+    <string name="sleep_timer_is_a_pro_feature">Таймер сну це функція 2Music Pro.</string>
+    <string name="folder_view_is_a_pro_feature">Перегляд по папках це функція 2Music Pro.</string>
     <string name="remove_from_blacklist">Видалити з чорного списку</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Вилучити <b>%1$s</b> з чорного списку?]]></string>
     <string name="clear_blacklist">Очистити чорний список</string>
@@ -259,4 +265,27 @@
     <string name="library_categories">Категорії бібліотеки</string>
     <string name="pref_summary_library_categories">Налаштувати видимість та порядок категорій бібліотеки.</string>
     <string name="you_have_to_select_at_least_one_category">Виберіть принаймні одну категорію.</string>
+    <!--Goodwy-->
+    <string name="purchase_text">Відкриває додаткові функції, такі як всі кольори теми, три теми (темна без роздільників, чорна і чорна без роздільників) і таймер сну.\n\nВихідний код 2Music доступний на GitHub. Ви можете безкоштовно скомпілювати професійну версію. Однак, якщо ви хочете підтримати розробку і отримувати оновлення через Google Play, розгляньте можливість покупки 2Music Pro.\n\nДякуємо,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">Кольоровий текст вкладок і каталогів</string>
+    <string name="pref_summary_color_tab_text">Забарвлює активну вкладку або папку акцентним кольором.</string>
+    <string name="pref_title_color_mini_player">Білий або Чорний колір міні плеєра</string>
+    <string name="pref_summary_color_mini_player">При включенні забарвлює фон міні плеєра білим кольором.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Назад</string>
+    <string name="md_cancel_label">Відміна</string>
+    <string name="md_custom_label">Палітра</string>
+    <string name="md_presets_label">Пресети</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">Світла (без роздільників)</string>
+    <string name="dark_nodivider_theme_name">Темна (без роздільників)</string>
+    <string name="black_nodivider_theme_name">Чорна (без роздільників)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">Кольори міні плеєра</string>
+    <string name="color_change_mini_player_instruction">Ви можете змінити колір міні плеєра в налаштуваннях. Доступний білий і чорний колір.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - Класичний темний</string>
+    <string name="app_widget_small_dark_name">2Music - Маленький темний</string>
+    <string name="app_widget_card_dark_name">2Music - Картка темний</string>
 </resources>

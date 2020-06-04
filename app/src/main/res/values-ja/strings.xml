@@ -99,7 +99,7 @@
     <string name="action_show_lyrics">歌詞を表示</string>
     <string name="light_theme_name">ライト</string>
     <string name="dark_theme_name">ダーク</string>
-    <string name="black_theme_name">ブラック (AMOLED)</string>
+    <string name="black_theme_name">ブラック</string>
     <string name="always">いつでも</string>
     <string name="only_on_wifi">Wi-Fi 接続時のみ</string>
     <string name="never">しない</string>
@@ -131,6 +131,7 @@
     <string name="pref_title_last_added_interval">最近追加された曲に含まれる期間</string>
     <string name="pref_title_synchronized_lyrics_show">同期された歌詞を表示</string>
     <string name="pref_title_remember_last_tab">最後のタブの記憶</string>
+    <string name="pref_title_remember_shuffle">シャッフルを覚えて</string>
     <string name="no_equalizer">イコライザーがインストールされていません</string>
     <string name="no_audio_ID">"何か曲を再生してもう一度お試しください"</string>
     <string name="delete_action">削除</string>
@@ -142,8 +143,8 @@
     <string name="x_selected">%1$dつ選択中</string>
     <string name="primary_color">メインカラー</string>
     <string name="accent_color">アクセントカラー</string>
-    <string name="primary_color_desc">ツールバーなどの色を設定します。(デフォルトではインディゴ)</string>
-    <string name="accent_color_desc">コントロールキーやシークバーなどの色を設定します。(デフォルトではピンク)</string>
+    <string name="primary_color_desc">ツールバーなどの色を設定します。</string>
+    <string name="accent_color_desc">コントロールキーやシークバーなどの色を設定します。</string>
     <string name="update_image">アルバムアートを更新</string>
     <string name="playlist_empty_text">空のプレイリスト</string>
     <string name="no_playlists">プレイリストなし</string>
@@ -164,7 +165,8 @@
     <string name="pref_summary_colored_app_shortcuts">アプリのショートカットの色をメインカラーに変更します。</string>
     <string name="pref_summary_audio_ducking">通知やナビなどです。</string>
     <string name="pref_summary_synchronized_lyrics_show">現時点では LRC 形式の同期歌詞のみに対応しています。埋め込みと別ファイルのどちらにも対応しています。</string>
-    <string name="pref_summary_remember_last_tab">アプリ起動時に最後に開いていたタブを開く</string>
+    <string name="pref_summary_remember_last_tab">アプリ起動時に最後に開いていたタブを開く。</string>
+    <string name="pref_summary_remember_shuffle">曲の新しいリストを選択しても、シャッフルモードはオンのままです。</string>
     <string name="could_not_download_album_cover">"\u6700\u9069\u306a\u30a2\u30eb\u30d0\u30e0\u30a2\u30fc\u30c8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f"</string>
     <string name="search_hint">ライブラリ内を検索…</string>
     <string name="favorites">お気に入り</string>
@@ -264,8 +266,8 @@
     <string name="playlist_is_empty">プレイリストは空です</string>
     <string name="playing_notification_description">再生の通知は再生/一時停止などを提供します。</string>
     <string name="playing_notification_name">再生中の通知</string>
-    <string name="only_the_first_5_colors_available">無料版では5色のみ利用可能です。</string>
-    <string name="black_theme_is_a_pro_feature">黒テーマは2Music Proの機能です。</string>
+    <string name="only_the_first_5_colors_available">無料版では6色のみ利用可能です。</string>
+    <string name="black_theme_is_a_pro_feature">このテーマは2Music Proの機能です。</string>
     <string name="sleep_timer_is_a_pro_feature">スリープ タイマーは2Music Proの機能です。</string>
     <string name="folder_view_is_a_pro_feature">フォルダー ビューは2Music Proの機能です。</string>
     <string name="restoring_purchase">購入を復元中…</string>
@@ -295,4 +297,29 @@
     <string name="sort_order_artist">Artista</string>
     <string name="sort_order_album">Álbum</string>
     <string name="sort_order_year">Ano</string>
+    <!--Goodwy-->
+    <string name="purchase_text">すべてのテーマの色、3つのテーマ（仕切りなしのダーク、仕切りなしの黒と黒）、スリープタイマーなどの追加機能のロックを解除します。\n\n
+        2MusicのソースコードはGitHubで入手できます。 あなたは無料で自分でプロ版をコンパイルすることを歓迎します。 ただし、開発をサポートし、Google Playを通じてアップデートを受け取りたい場合は、2Music Proの購入を検討してください。\n\n
+        ありがとうございました、\nGoodwy</string>
+    <string name="pref_title_color_tab_text">タブとディレクトリの色付きテキスト</string>
+    <string name="pref_summary_color_tab_text">アクティブなタブまたはフォルダをアクセントカラーで色付けします。</string>
+    <string name="pref_title_color_mini_player">ミニプレーヤーの白または黒の色</string>
+    <string name="pref_summary_color_mini_player">オンにすると、ミニプレーヤーの背景が白く表示されます。</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Back</string>
+    <string name="md_cancel_label">Cancel</string>
+    <string name="md_custom_label">Custom</string>
+    <string name="md_presets_label">Presets</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">ライト （仕切りなし）</string>
+    <string name="dark_nodivider_theme_name">ダーク （仕切りなし）</string>
+    <string name="black_nodivider_theme_name">ブラック （仕切りなし）</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">ミニプレーヤーの色</string>
+    <string name="color_change_mini_player_instruction">あなたは設定でミニプレーヤーの色を変更することができます。 白と黒で利用できます。</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - クラシックダーク</string>
+    <string name="app_widget_small_dark_name">2Music - 小さダーク</string>
+    <string name="app_widget_card_dark_name">2Music - カードダーク</string>
 </resources>

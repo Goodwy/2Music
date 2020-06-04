@@ -100,7 +100,7 @@
     <string name="action_show_lyrics">Näytä lyriikat</string>
     <string name="light_theme_name">Vaalea</string>
     <string name="dark_theme_name">Tumma</string>
-    <string name="black_theme_name">Musta (AMOLED)</string>
+    <string name="black_theme_name">Musta</string>
     <string name="always">Aina</string>
     <string name="only_on_wifi">Vain Wi-Fi-yhteydellä</string>
     <string name="never">Ei koskaan</string>
@@ -145,8 +145,8 @@
     <string name="x_selected">%1$d valittu</string>
     <string name="primary_color">Ensisijainen väri</string>
     <string name="accent_color">Aksenttiväri</string>
-    <string name="primary_color_desc">Ensisijainen teemaväri, oletuksena indigo.</string>
-    <string name="accent_color_desc">Aksentti teemaväri, oletuksena pinkki.</string>
+    <string name="primary_color_desc">Ensisijainen teemaväri.</string>
+    <string name="accent_color_desc">Aksentti teemaväri.</string>
     <string name="update_image">Päivitä kuva</string>
     <string name="playlist_empty_text">Tyhjä soittolista</string>
     <string name="no_playlists">Ei soittolistoja</string>
@@ -168,7 +168,7 @@
     <string name="pref_summary_audio_ducking">Ilmoitukset, liikkuminen jne.</string>
     <string name="pref_summary_synchronized_lyrics_show">Nykyiseltään sovellus tukee vain LRC-muodossa olevia sanoituksia, joko sulautettuna tai erillisinä tiedostoina.</string>
     <string name="pref_summary_remember_last_tab">Palauttaa käynnistyessään viimeksi avoinna olleen välilehden.</string>
-    <string name="pref_summary_remember_shuffle">Sekoitus-tila pysyy päällä, kun valitset uuden listan kappaleita</string>
+    <string name="pref_summary_remember_shuffle">Sekoitus-tila pysyy päällä, kun valitset uuden listan kappaleita.</string>
     <string name="could_not_download_album_cover">"Ei voitu ladata albumia vastaavaa albumin kantta."</string>
     <string name="search_hint">Etsi kirjastostasi...</string>
     <string name="favorites">Suosikit</string>
@@ -268,8 +268,8 @@
     <string name="playlist_is_empty">Soittolista on tyhjä</string>
     <string name="playing_notification_description">Toistoilmoitus sisältää nappeja musiikin toistolle/pysäyttämiselle jne.</string>
     <string name="playing_notification_name">Toistoilmoitus</string>
-    <string name="only_the_first_5_colors_available">Sovelluksen ilmaisversio on rajoitettu 5 ensimmäiseen värivaihtoehtoon.</string>
-    <string name="black_theme_is_a_pro_feature">Musta teema on 2Music Pro:n ominaisuus.</string>
+    <string name="only_the_first_5_colors_available">Sovelluksen ilmaisversio on rajoitettu 6 ensimmäiseen värivaihtoehtoon.</string>
+    <string name="black_theme_is_a_pro_feature">Tämä teema on ominaisuus 2Music Prossa.</string>
     <string name="sleep_timer_is_a_pro_feature">Herätyskello on 2Music Pro:n ominaisuus.</string>
     <string name="folder_view_is_a_pro_feature">Kansionäkymä on 2Music Pro:n ominaisuus.</string>
     <string name="restoring_purchase">Palautetaan ostoa...</string>
@@ -300,4 +300,27 @@
     <string name="sort_order_album">Albumi</string>
     <string name="sort_order_year">Vuosi</string>
     <string name="finish_current_music_sleep_timer">Lopeta viimeinen kappale</string>
+    <!--Goodwy-->
+    <string name="purchase_text">Lukitsee lisäominaisuudet, kuten kaikki teemavärit, kolme teemaa (tumma ilman jakajia, musta ja musta ilman jakajia) ja uniajastin.\n\n2Musicin lähdekoodi on saatavana GitHubissa. Voit ladata pro-version itse ilmaiseksi. Jos kuitenkin haluat tukea kehitystä ja saada päivityksiä Google Playn kautta, harkitse 2Music Pron ostamista.\n\nKiitos,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">Värilehti välilehdille ja hakemistoille</string>
+    <string name="pref_summary_color_tab_text">Värittää aktiivisen välilehden tai kansion korostusvärillä.</string>
+    <string name="pref_title_color_mini_player">Mini-soittimen valkoinen tai musta väri</string>
+    <string name="pref_summary_color_mini_player">Kun virta on kytketty, se värii minisoittimen taustan valkoisena.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Takaisin</string>
+    <string name="md_cancel_label">Peruuttaa</string>
+    <string name="md_custom_label">Mukautettu</string>
+    <string name="md_presets_label">Esiasetukset</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">Vaalea (ei jakajaa)</string>
+    <string name="dark_nodivider_theme_name">Tumma (ei jakajaa)</string>
+    <string name="black_nodivider_theme_name">Musta (ei jakajaa)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">Mini-soittimen värit</string>
+    <string name="color_change_mini_player_instruction">Voit muuttaa mini-soittimen väriä asetuksissa. Saatavana valkoisena ja mustana.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - Klassinen Tumma</string>
+    <string name="app_widget_small_dark_name">2Music - Pieni Tumma</string>
+    <string name="app_widget_card_dark_name">2Music - Kortti Tumma</string>
 </resources>

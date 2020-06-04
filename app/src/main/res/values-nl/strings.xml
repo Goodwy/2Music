@@ -99,7 +99,7 @@
     <string name="action_show_lyrics">Toon songtekst</string>
     <string name="light_theme_name">Licht</string>
     <string name="dark_theme_name">Donker</string>
-    <string name="black_theme_name">Zwart (AMOLED)</string>
+    <string name="black_theme_name">Zwart</string>
     <string name="always">Altijd</string>
     <string name="only_on_wifi">Alleen over wifi</string>
     <string name="never">Nooit</string>
@@ -131,6 +131,7 @@
     <string name="pref_title_last_added_interval">Laatst toegevoegd afspeellijst tussenpoos</string>
     <string name="pref_title_synchronized_lyrics_show">Gesynchr. songtekst weergeven</string>
     <string name="pref_title_remember_last_tab">Laatste tabblad onthouden</string>
+    <string name="pref_title_remember_shuffle">Onthoud shuffle</string>
     <string name="no_equalizer">Geen equalizer gevonden.</string>
     <string name="no_audio_ID">"Speel eerst iets af, probeer dan opnieuw."</string>
     <string name="delete_action">Verwijderen</string>
@@ -142,8 +143,8 @@
     <string name="x_selected">%1$d geselecteerd</string>
     <string name="primary_color">Primaire kleur</string>
     <string name="accent_color">Accentkleur</string>
-    <string name="primary_color_desc">De primaire themakleur, standaard indigo.</string>
-    <string name="accent_color_desc">De thema accentkleur, standaard roze.</string>
+    <string name="primary_color_desc">De primaire themakleur.</string>
+    <string name="accent_color_desc">De thema accentkleur.</string>
     <string name="update_image">Afbeelding bijwerken</string>
     <string name="playlist_empty_text">Lege afspeellijst</string>
     <string name="no_playlists">Geen afspeellijsten</string>
@@ -164,7 +165,8 @@
     <string name="pref_summary_colored_app_shortcuts">Kleurt de app-snelkoppelingen in de primaire kleur.</string>
     <string name="pref_summary_audio_ducking">Notificaties, navigatie, etc.</string>
     <string name="pref_summary_synchronized_lyrics_show">Momenteel worden gesynchr. songteksten alleen ondersteund in LRC-formaat. Of ingebed, of als separaat bestand.</string>
-    <string name="pref_summary_remember_last_tab">Ga naar het laatst geopende tabblad bij opstarten</string>
+    <string name="pref_summary_remember_last_tab">Ga naar het laatst geopende tabblad bij opstarten.</string>
+    <string name="pref_summary_remember_shuffle">De shuffle-modus blijft ingeschakeld wanneer u een nieuwe lijst met nummers selecteert.</string>
     <string name="could_not_download_album_cover">"Kan geen bijpassende albumhoes downloaden."</string>
     <string name="search_hint">Zoek in je bibliotheek…</string>
     <string name="favorites">Favorieten</string>
@@ -264,8 +266,8 @@
     <string name="playlist_is_empty">Afspeellijst is leeg</string>
     <string name="playing_notification_description">De afspeelmelding biedt acties voor afspelen/pauzeren etc.</string>
     <string name="playing_notification_name">Afspeelmelding</string>
-    <string name="only_the_first_5_colors_available">Alleen de eerste 5 kleuren zijn beschikbaar in de gratis versie.</string>
-    <string name="black_theme_is_a_pro_feature">Het zwarte thema is een 2Music Pro functie.</string>
+    <string name="only_the_first_5_colors_available">Alleen de eerste 6 kleuren zijn beschikbaar in de gratis versie.</string>
+    <string name="black_theme_is_a_pro_feature">Dit thema is een functie van 2Music Pro.</string>
     <string name="sleep_timer_is_a_pro_feature">Slaaptimer is een 2Music Pro functie.</string>
     <string name="folder_view_is_a_pro_feature">Mappenweergave is een 2Music Pro functie.</string>
     <string name="restoring_purchase">Aankoop herstellen…</string>
@@ -295,4 +297,29 @@
     <string name="sort_order_artist">Artiest</string>
     <string name="sort_order_album">Album</string>
     <string name="sort_order_year">Jaar</string>
+    <!--Goodwy-->
+    <string name="purchase_text">Ontgrendelt extra functies, zoals alle themakleuren, drie thema\'s (donker zonder verdelers, zwart en zwart zonder verdelers) en de sleeptimer.\n\n
+        De broncode van 2Music is beschikbaar op GitHub. U mag de pro-versie gratis zelf samenstellen. Als u echter de ontwikkeling wilt ondersteunen en updates wilt ontvangen via Google Play, overweeg dan om 2Music Pro aan te schaffen.\n\n
+        Dank u,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">Gekleurde tekst voor tabbladen en mappen</string>
+    <string name="pref_summary_color_tab_text">Kleurt het actieve tabblad of de actieve map met een accentkleur.</string>
+    <string name="pref_title_color_mini_player">Witte of zwarte kleur van de minispeler</string>
+    <string name="pref_summary_color_mini_player">Wanneer ingeschakeld, kleurt het de achtergrond van de minispeler in het wit.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Terug</string>
+    <string name="md_cancel_label">Annuleren</string>
+    <string name="md_custom_label">Op maat</string>
+    <string name="md_presets_label">Voorinstellingen</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">Licht (geen verdeler)</string>
+    <string name="dark_nodivider_theme_name">Donker (geen verdeler)</string>
+    <string name="black_nodivider_theme_name">Zwart (geen verdeler)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">Mini player kleuren</string>
+    <string name="color_change_mini_player_instruction">Je kunt de kleur van de minispeler wijzigen in de instellingen. Verkrijgbaar in wit en zwart.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - Klassiek Donker</string>
+    <string name="app_widget_small_dark_name">2Music - Klein Donker</string>
+    <string name="app_widget_card_dark_name">2Music - Kaart Donker</string>
 </resources>

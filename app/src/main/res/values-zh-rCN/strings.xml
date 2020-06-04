@@ -100,7 +100,7 @@
     <string name="action_show_lyrics">显示歌词</string>
     <string name="light_theme_name">浅色</string>
     <string name="dark_theme_name">暗色</string>
-    <string name="black_theme_name">黑色（AMOLED）</string>
+    <string name="black_theme_name">黑色</string>
     <string name="always">总是</string>
     <string name="only_on_wifi">仅在 WiFi 下</string>
     <string name="never">从不</string>
@@ -133,6 +133,7 @@
     <string name="pref_title_last_added_interval">最近添加播放列表间隔</string>
     <string name="pref_title_synchronized_lyrics_show">显示同步歌词</string>
     <string name="pref_title_remember_last_tab">记住最后打开页面</string>
+    <string name="pref_title_remember_shuffle">記住隨機播放</string>
     <string name="no_equalizer">没有找到均衡器。</string>
     <string name="no_audio_ID">"请在播放歌曲后再次尝试此操作。"</string>
     <string name="delete_action">删除</string>
@@ -144,8 +145,8 @@
     <string name="x_selected">已选择 %1$d</string>
     <string name="primary_color">主色调</string>
     <string name="accent_color">强调色</string>
-    <string name="primary_color_desc">主题主色调，默认为靛蓝色。</string>
-    <string name="accent_color_desc">主题强调色，默认为粉色。</string>
+    <string name="primary_color_desc">主题主色调。</string>
+    <string name="accent_color_desc">主题强调色。</string>
     <string name="update_image">更新图片</string>
     <string name="playlist_empty_text">播放列表为空</string>
     <string name="no_playlists">没有播放列表</string>
@@ -166,7 +167,8 @@
     <string name="pref_summary_colored_app_shortcuts">用主色调着色应用快捷方式。</string>
     <string name="pref_summary_audio_ducking">通知、导航等</string>
     <string name="pref_summary_synchronized_lyrics_show">当前仅支持 LRC 格式同步歌词。内嵌或外置均可。</string>
-    <string name="pref_summary_remember_last_tab">启动时跳转到最后打开页面</string>
+    <string name="pref_summary_remember_last_tab">启动时跳转到最后打开页面。</string>
+    <string name="pref_summary_remember_shuffle">當選擇新歌曲列表時維持隨機播放模式。</string>
     <string name="could_not_download_album_cover">"\u65e0\u6cd5\u4e0b\u8f7d\u5230\u5339\u914d\u7684\u4e13\u8f91\u5c01\u9762\u3002"</string>
     <string name="search_hint">正在扫描</string>
     <string name="favorites">收藏夹</string>
@@ -266,8 +268,8 @@
     <string name="playlist_is_empty">播放列表为空</string>
     <string name="playing_notification_description">正在播放通知提供了播放/暂停等便捷操作。</string>
     <string name="playing_notification_name">正在播放通知</string>
-    <string name="only_the_first_5_colors_available">免费版仅能使用前 5 个主题色。</string>
-    <string name="black_theme_is_a_pro_feature">黑色主题仅适用于 2Music Pro。</string>
+    <string name="only_the_first_5_colors_available">免费版仅能使用前 6 个主题色。</string>
+    <string name="black_theme_is_a_pro_feature">此主题是 2Music Pro 的功能。</string>
     <string name="sleep_timer_is_a_pro_feature">睡眠计时器仅适用于 2Music Pro。</string>
     <string name="folder_view_is_a_pro_feature">文件夹视图仅适用于 2Music Pro。</string>
     <string name="restoring_purchase">正在恢复购买状态...</string>
@@ -297,4 +299,29 @@
     <string name="sort_order_artist">艺术家</string>
     <string name="sort_order_album">专辑</string>
     <string name="sort_order_year">年份</string>
+    <!--Goodwy-->
+    <string name="purchase_text">解锁额外的功能，例如所有主题颜色，三个主题（无分隔线的黑色，无分隔线的黑色和黑色）和睡眠计时器。\n\n
+        2Music的源代码可在GitHub上找到。 欢迎您免费自己编译专业版。 但是，如果您想支持开发并通过Google Play接收更新，请考虑购买2Music Pro。\n\n
+        谢谢，\nGoodwy</string>
+    <string name="pref_title_color_tab_text">选项卡和目录的彩色文本</string>
+    <string name="pref_summary_color_tab_text">使用强调色为活动的选项卡或文件夹上色。</string>
+    <string name="pref_title_color_mini_player">迷你播放器的白色或黑色</string>
+    <string name="pref_summary_color_mini_player">启用后，它将用白色将迷你播放器的背景上色。</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Back</string>
+    <string name="md_cancel_label">Cancel</string>
+    <string name="md_custom_label">Custom</string>
+    <string name="md_presets_label">Presets</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">浅色 （无分隔线）</string>
+    <string name="dark_nodivider_theme_name">暗色 （无分隔线）</string>
+    <string name="black_nodivider_theme_name">黑色 （无分隔线）</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">迷你播放器颜色</string>
+    <string name="color_change_mini_player_instruction">您可以在设置中更改迷你播放器的颜色。 有白色和黑色可供选择。</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - 经典暗色</string>
+    <string name="app_widget_small_dark_name">2Music - 小尺寸暗色</string>
+    <string name="app_widget_card_dark_name">2Music - 卡片暗色</string>
 </resources>

@@ -232,7 +232,7 @@ public final class PreferenceUtil {
     }
 
     public final boolean coloredAppShortcuts() {
-        return mPreferences.getBoolean(COLORED_APP_SHORTCUTS, true);
+        return mPreferences.getBoolean(COLORED_APP_SHORTCUTS, false);
     }
 
     public final boolean gaplessPlayback() {

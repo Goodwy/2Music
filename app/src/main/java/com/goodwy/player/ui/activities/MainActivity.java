@@ -114,11 +114,11 @@ public class MainActivity extends AbsSlidingMusicPanelActivity {
     }
 
     private void setMusicChooser(int key) {
-        if (App.isProVersion() && key == FOLDERS) {
+/**        if (!App.isProVersion() && key == FOLDERS) {
             Toast.makeText(this, R.string.folder_view_is_a_pro_feature, Toast.LENGTH_LONG).show();
             startActivity(new Intent(this, PurchaseActivity.class));
             key = LIBRARY;
-        }
+        }*/
 
         PreferenceUtil.getInstance(this).setLastMusicChooser(key);
         switch (key) {

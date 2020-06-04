@@ -99,7 +99,7 @@
     <string name="action_show_lyrics">Şarkı sözlerini göster</string>
     <string name="light_theme_name">Açık</string>
     <string name="dark_theme_name">Koyu</string>
-    <string name="black_theme_name">Siyah (AMOLED)</string>
+    <string name="black_theme_name">Siyah</string>
     <string name="always">Her zaman</string>
     <string name="only_on_wifi">Yalnızca Wİ-Fİ</string>
     <string name="never">Asla</string>
@@ -131,6 +131,7 @@
     <string name="pref_title_last_added_interval">Son eklenen çalma listesi süresi</string>
     <string name="pref_title_synchronized_lyrics_show">Senkronize şarkı sözlerini göster</string>
     <string name="pref_title_remember_last_tab">Son sekmeyi hatırla</string>
+    <string name="pref_title_remember_shuffle">Karıştırmayı hatırla</string>
     <string name="no_equalizer">Ekolayzer bulunamadı.</string>
     <string name="no_audio_ID">"ilk şarkıyı çalın, daha sonra tekrar deneyin."</string>
     <string name="delete_action">Sil</string>
@@ -142,8 +143,8 @@
     <string name="x_selected">%1$d seçildi</string>
     <string name="primary_color">Ana renk</string>
     <string name="accent_color">Vurgu rengi</string>
-    <string name="primary_color_desc">Varsayılan tema ana rengi mavi.</string>
-    <string name="accent_color_desc">Varsayılan tema vurgu rengi pembe.</string>
+    <string name="primary_color_desc">Ana tema rengi.</string>
+    <string name="accent_color_desc">Vurgu teması rengi.</string>
     <string name="update_image">Resimleri güncelle</string>
     <string name="playlist_empty_text">Bu çalma listesi boş</string>
     <string name="no_playlists">Çalma listesi yok</string>
@@ -164,7 +165,8 @@
     <string name="pref_summary_colored_app_shortcuts">Uygulama kısayollarını ana renk ile renklendir.</string>
     <string name="pref_summary_audio_ducking">Bildirimler, gezinme vb.</string>
     <string name="pref_summary_synchronized_lyrics_show">Şu anda yalnızca LRC formatında senkronize edilmiş sözler desteklenmektedir. Gömülü veya ayrı bir dosya olarak.</string>
-    <string name="pref_summary_remember_last_tab">Başlatıldığında son açılan sekmeye git</string>
+    <string name="pref_summary_remember_last_tab">Başlatıldığında son açılan sekmeye git.</string>
+    <string name="pref_summary_remember_shuffle">Yeni bir şarkı listesi seçerken Karışık modu açık kalacaktır.</string>
     <string name="could_not_download_album_cover">"E\u015fle\u015fen bir alb\u00fcm kapa\u011f\u0131 indirilemedi."</string>
     <string name="search_hint">Kitaplığınız taranıyor...</string>
     <string name="favorites">Favoriler</string>
@@ -264,8 +266,8 @@
     <string name="playlist_is_empty">Çalma listesi boş</string>
     <string name="playing_notification_description">Çalma bildirimi, başlat/duraklat vb. işlemleri sağlar</string>
     <string name="playing_notification_name">Çalma bildirimi</string>
-    <string name="only_the_first_5_colors_available">Ücretsiz sürümde sadece ilk 5 renk mevcuttur.</string>
-    <string name="black_theme_is_a_pro_feature">Siyah tema, 2Music Pro özelliğidir.</string>
+    <string name="only_the_first_5_colors_available">Ücretsiz sürümde sadece ilk 6 renk mevcuttur.</string>
+    <string name="black_theme_is_a_pro_feature">Bu tema 2Music Pro\'nun bir özelliğidir.</string>
     <string name="sleep_timer_is_a_pro_feature">Uyku zamanlayıcı bir 2Music Pro özelliğidir.</string>
     <string name="folder_view_is_a_pro_feature">Klasör görünümü bir 2Music Pro özelliğidir.</string>
     <string name="restoring_purchase">Satın alma geri yükleniyor...</string>
@@ -295,4 +297,29 @@
     <string name="sort_order_artist">Sanatçı</string>
     <string name="sort_order_album">Albüm</string>
     <string name="sort_order_year">Yıl</string>
+    <!--Goodwy-->
+    <string name="purchase_text">Tüm tema renkleri, üç tema (ayırıcı olmadan koyu, ayırıcı olmadan siyah ve siyah) ve uyku zamanlayıcısı gibi ekstra özelliklerin kilidini açar.\n\n
+        2Music\'in kaynak kodu GitHub\'da bulunmaktadır. Pro sürümünü ücretsiz olarak kendiniz derleyebilirsiniz. Ancak, Google Play aracılığıyla geliştirmeyi desteklemek ve güncellemeler almak istiyorsanız, 2Music Pro satın almayı düşünün.\n\n
+        Teşekkür ederim,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">Sekmeler ve dizinler için renkli metin</string>
+    <string name="pref_summary_color_tab_text">Etkin sekmeyi veya klasörü vurgu rengiyle renklendirir.</string>
+    <string name="pref_title_color_mini_player">Mini oynatıcının beyaz veya siyah rengi</string>
+    <string name="pref_summary_color_mini_player">Açıldığında, mini oynatıcının arka planını beyaz renklendirir.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Back</string>
+    <string name="md_cancel_label">Cancel</string>
+    <string name="md_custom_label">Custom</string>
+    <string name="md_presets_label">Presets</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">Açık (bölücü yok)</string>
+    <string name="dark_nodivider_theme_name">Koyu (bölücü yok)</string>
+    <string name="black_nodivider_theme_name">Siyah (bölücü yok)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">Mini oyuncu renkleri</string>
+    <string name="color_change_mini_player_instruction">Mini oynatıcının rengini ayarlardan değiştirebilirsiniz. Beyaz ve siyah renkleri mevcuttur.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - Klasik Koyu</string>
+    <string name="app_widget_small_dark_name">2Music - Küçük Koyu</string>
+    <string name="app_widget_card_dark_name">2Music - Kart Koyu</string>
 </resources>

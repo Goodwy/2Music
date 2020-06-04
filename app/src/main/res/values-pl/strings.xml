@@ -99,7 +99,7 @@
     <string name="action_show_lyrics">Pokaż teksty</string>
     <string name="light_theme_name">Jasny</string>
     <string name="dark_theme_name">Ciemny</string>
-    <string name="black_theme_name">Czarny (AMOLED)</string>
+    <string name="black_theme_name">Czarny</string>
     <string name="always">Zawsze</string>
     <string name="only_on_wifi">Tylko na WiFi</string>
     <string name="never">Nigdy</string>
@@ -131,6 +131,7 @@
     <string name="pref_title_last_added_interval">Okres ostatnio dodanych list odtwarzania</string>
     <string name="pref_title_synchronized_lyrics_show">Pokazuj zsynchronizowany tekst</string>
     <string name="pref_title_remember_last_tab">"Zapamiętaj ostatnią zakładkę "</string>
+    <string name="pref_title_remember_shuffle">Pamiętaj o losowaniu</string>
     <string name="no_equalizer">Nie znaleziono korektora</string>
     <string name="no_audio_ID">"Odegraj utwór, następnie ponów próbę"</string>
     <string name="delete_action">Usuń</string>
@@ -142,8 +143,8 @@
     <string name="x_selected">%1$d zaznaczono</string>
     <string name="primary_color">Kolor podstawowy</string>
     <string name="accent_color">Kolor dodatków</string>
-    <string name="primary_color_desc">Główny kolor motywu, domyślnie indygo</string>
-    <string name="accent_color_desc">Kolor akcentów motywu, domyślnie różowy</string>
+    <string name="primary_color_desc">Główny kolor motywu.</string>
+    <string name="accent_color_desc">Kolor akcentów motywu.</string>
     <string name="update_image">Zmiana obrazu</string>
     <string name="playlist_empty_text">Lista odtwarzania jest pusta</string>
     <string name="no_playlists">Brak list odtwarzania</string>
@@ -164,7 +165,8 @@
     <string name="pref_summary_colored_app_shortcuts">Kolory skrótów aplikacji w kolorze podstawowym</string>
     <string name="pref_summary_audio_ducking">Notyfikacje, nawigacja, itp.</string>
     <string name="pref_summary_synchronized_lyrics_show">Obecnie wspierane są tylko napisy w formacie LRC oraz te osadzone w osobnym pliku.</string>
-    <string name="pref_summary_remember_last_tab">Idź do ostatniej otwartej zakładki przy starcie</string>
+    <string name="pref_summary_remember_last_tab">Idź do ostatniej otwartej zakładki przy starcie.</string>
+    <string name="pref_summary_remember_shuffle">Tryb losowy pozostanie włączony po wybraniu nowej listy utworów.</string>
     <string name="could_not_download_album_cover">"Nie uda\u0142o si\u0119 pobra\u0107 pasuj\u0105cej ok\u0142adki albumu"</string>
     <string name="search_hint">Szukaj w bibliotece...</string>
     <string name="favorites">Ulubione</string>
@@ -264,8 +266,8 @@
     <string name="playlist_is_empty">Lista odtwarzania jest pusta</string>
     <string name="playing_notification_description">Powiadomienie odtwarzania pozwala na zatrzymywanie/wznawianie itd.</string>
     <string name="playing_notification_name">Powiadomienie o odtwarzaniu</string>
-    <string name="only_the_first_5_colors_available">Tylko 5 pierwszych kolorów jest dostępnych w darmowej wersji.</string>
-    <string name="black_theme_is_a_pro_feature">Czarny motyw jest funkcją 2Music Pro.</string>
+    <string name="only_the_first_5_colors_available">Tylko 6 pierwszych kolorów jest dostępnych w darmowej wersji.</string>
+    <string name="black_theme_is_a_pro_feature">Ten motyw jest funkcją 2Music Pro.</string>
     <string name="sleep_timer_is_a_pro_feature">Wyłączenie czasowe jest funkcją 2Music Pro.</string>
     <string name="folder_view_is_a_pro_feature">Widok folderów jest funkcją 2Music Pro.</string>
     <string name="restoring_purchase">Przywracanie zakupu...</string>
@@ -295,4 +297,29 @@
     <string name="sort_order_artist">Artysta</string>
     <string name="sort_order_album">Album</string>
     <string name="sort_order_year">Rok</string>
+    <!--Goodwy-->
+    <string name="purchase_text">Odblokowuje dodatkowe funkcje, takie jak wszystkie kolory motywu, trzy motywy (ciemne bez dzielników, czarne i czarne bez dzielników) i wyłącznik czasowy.\n\n
+        Kod źródłowy 2Music jest dostępny na GitHub. Zapraszamy do samodzielnego skompilowania wersji pro. Jeśli jednak chcesz wspierać rozwój i otrzymywać aktualizacje za pośrednictwem Google Play, rozważ zakup 2Music Pro.\n\n
+        Dziękuję Ci,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">Kolorowy tekst zakładek i katalogów</string>
+    <string name="pref_summary_color_tab_text">Koloruje aktywną kartę lub folder kolorem akcentującym.</string>
+    <string name="pref_title_color_mini_player">Biały lub czarny kolor mini odtwarzacza</string>
+    <string name="pref_summary_color_mini_player">Po włączeniu kolor tła odtwarzacza mini jest biały.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Back</string>
+    <string name="md_cancel_label">Cancel</string>
+    <string name="md_custom_label">Custom</string>
+    <string name="md_presets_label">Presets</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">Jasny (bez dzielnika)</string>
+    <string name="dark_nodivider_theme_name">Ciemny (bez dzielnika)</string>
+    <string name="black_nodivider_theme_name">Czarny (bez dzielnika)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">Kolory mini odtwarzacza</string>
+    <string name="color_change_mini_player_instruction">Możesz zmienić kolor mini odtwarzacza w ustawieniach. Dostępne w kolorze białym i czarnym.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - Klasyczny Ciemny</string>
+    <string name="app_widget_small_dark_name">2Music - Mały Ciemny</string>
+    <string name="app_widget_card_dark_name">2Music - Karta Ciemny</string>
 </resources>

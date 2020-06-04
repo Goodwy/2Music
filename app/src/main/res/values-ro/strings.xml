@@ -97,9 +97,9 @@
     <string name="action_save_playing_queue">Salvați lista de redare</string>
     <string name="action_go_to_start_directory">Du-te la directorul de pornire</string>
     <string name="action_show_lyrics">Arată versuri</string>
-    <string name="light_theme_name">Light (Alb)</string>
-    <string name="dark_theme_name">Dark (Negru)</string>
-    <string name="black_theme_name">Negru (AMOLED)</string>
+    <string name="light_theme_name">Ușoară</string>
+    <string name="dark_theme_name">Întuneric</string>
+    <string name="black_theme_name">Negru</string>
     <string name="always">Mereu</string>
     <string name="only_on_wifi">Doar cu Wi-Fi</string>
     <string name="never">Niciodată</string>
@@ -131,6 +131,7 @@
     <string name="pref_title_last_added_interval">Ultimul interval al listei de redare adăugate</string>
     <string name="pref_title_synchronized_lyrics_show">Afişare versuri sincronizate</string>
     <string name="pref_title_remember_last_tab">Rețineți ultima filă</string>
+    <string name="pref_title_remember_shuffle">Amintiți-vă de amestec</string>
     <string name="no_equalizer">Niciun egalizator găsit</string>
     <string name="no_audio_ID">"Redă o melodie mai întâi, apoi încearcă din nou."</string>
     <string name="delete_action">Șterge</string>
@@ -142,8 +143,8 @@
     <string name="x_selected">%1$d selectat/ă</string>
     <string name="primary_color">Culoare primară</string>
     <string name="accent_color">Culoare de accent</string>
-    <string name="primary_color_desc">Culoarea primară temei, originalul este indigo.</string>
-    <string name="accent_color_desc">Culoarea de accent a temei, originalul este roz.</string>
+    <string name="primary_color_desc">Culoarea primară temei.</string>
+    <string name="accent_color_desc">Culoarea de accent a temei.</string>
     <string name="update_image">Actualizare imagine</string>
     <string name="playlist_empty_text">Listă goală</string>
     <string name="no_playlists">Nu sunt liste de redare</string>
@@ -164,7 +165,8 @@
     <string name="pref_summary_colored_app_shortcuts">Colorarea comenzilor rapide ale aplicației în culoarea primară.</string>
     <string name="pref_summary_audio_ducking">Notificări, navigație etc.</string>
     <string name="pref_summary_synchronized_lyrics_show">În prezent sunt acceptate numai versurile sincronizate în format LRC. Fie încorporate, fie ca fişier separat.</string>
-    <string name="pref_summary_remember_last_tab">Accesați ultima filă deschisă la lansare</string>
+    <string name="pref_summary_remember_last_tab">Accesați ultima filă deschisă la lansare.</string>
+    <string name="pref_summary_remember_shuffle">Modul Shuffle va rămâne activ atunci când selectați o nouă listă de melodii.</string>
     <string name="could_not_download_album_cover">"Nu s-a putut desc\u0103rca o copert\u0103 de album corespunz\u0103toare."</string>
     <string name="search_hint">Căutați în bibliotecă.</string>
     <string name="favorites">Favorite</string>
@@ -264,8 +266,8 @@
     <string name="playlist_is_empty">Listă de redare goală</string>
     <string name="playing_notification_description">Notificarea de redare oferă acțiuni de redare/pauză etc.</string>
     <string name="playing_notification_name">Notificare de redare</string>
-    <string name="only_the_first_5_colors_available">Numai primele 5 culori sunt disponibile în versiunea gratuită.</string>
-    <string name="black_theme_is_a_pro_feature">Tema întunecată este disponibilă doar în versiunea 2Music Pro.</string>
+    <string name="only_the_first_5_colors_available">Numai primele 6 culori sunt disponibile în versiunea gratuită.</string>
+    <string name="black_theme_is_a_pro_feature">Această temă este o caracteristică a 2Music Pro.</string>
     <string name="sleep_timer_is_a_pro_feature">Temporizatorul este disponibil doar în versiunea 2Music Pro</string>
     <string name="folder_view_is_a_pro_feature">Afișarea dosarelor este disponibilă doar în versiunea 2Music Pro.</string>
     <string name="restoring_purchase">Se restabilește achiziția...</string>
@@ -295,4 +297,29 @@
     <string name="sort_order_artist">Artist</string>
     <string name="sort_order_album">Album</string>
     <string name="sort_order_year">An</string>
+    <!--Goodwy-->
+    <string name="purchase_text">Deblochează funcții suplimentare, cum ar fi toate culorile temei, trei teme (întunecat fără divizor, negru și negru fără divizor) și cronometrul de repaus.\n\n
+        Codul sursă al 2Music este disponibil pe GitHub. Vă rugăm să redactați gratuit versiunea profesională. Cu toate acestea, dacă doriți să susțineți dezvoltarea și să primiți actualizări prin Google Play, luați în considerare achiziționarea 2Music Pro.\n\n
+        Mulțumesc,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">Text colorat pentru file și directoare</string>
+    <string name="pref_summary_color_tab_text">Culoează fila sau folderul activ cu o culoare de accent.</string>
+    <string name="pref_title_color_mini_player">Culoarea albă sau neagră a mini playerului</string>
+    <string name="pref_summary_color_mini_player">Când este pornit, acesta colorează fundalul mini playerului în alb.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Back</string>
+    <string name="md_cancel_label">Cancel</string>
+    <string name="md_custom_label">Custom</string>
+    <string name="md_presets_label">Presets</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">Ușoară (fără împărțitor)</string>
+    <string name="dark_nodivider_theme_name">Întuneric (fără împărțitor)</string>
+    <string name="black_nodivider_theme_name">Negru (fără împărțitor)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">Culorile mini playerului</string>
+    <string name="color_change_mini_player_instruction">Puteți schimba culoarea mini playerului în setări. Disponibil în alb și negru.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - Clasic Întuneric</string>
+    <string name="app_widget_small_dark_name">2Music - Mic Întuneric</string>
+    <string name="app_widget_card_dark_name">2Music - Card Întuneric</string>
 </resources>

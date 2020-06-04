@@ -96,7 +96,7 @@
     <string name="action_show_lyrics">Hiện lời bài hát</string>
     <string name="light_theme_name">Sáng</string>
     <string name="dark_theme_name">Tối</string>
-    <string name="black_theme_name">Đen (AMOLED)</string>
+    <string name="black_theme_name">Đen</string>
     <string name="always">Luôn luôn</string>
     <string name="only_on_wifi">Chỉ dùng Wi-Fi</string>
     <string name="never">Không bao giờ</string>
@@ -126,6 +126,8 @@
     <string name="pref_title_audio_ducking">Giảm âm lượng khi mất tập trung</string>
     <string name="pref_title_last_added_interval">Thời gian danh sách nhạc được thêm vào sau cùng</string>
     <string name="pref_title_synchronized_lyrics_show">Hiển thị lời bài hát được đồng bộ</string>
+    <string name="pref_title_remember_last_tab">Ghi nhớ tab cuối cùng</string>
+    <string name="pref_title_remember_shuffle">Nhớ xáo trộn</string>
     <string name="no_equalizer">Không có bộ lọc âm thanh nào.</string>
     <string name="no_audio_ID">"Phát một bài hát đầu tiên, sau đó thử lại."</string>
     <string name="delete_action">Xóa</string>
@@ -136,8 +138,8 @@
     <string name="x_selected">Đã chọn %1$d</string>
     <string name="primary_color">Màu chính</string>
     <string name="accent_color">Màu phụ</string>
-    <string name="primary_color_desc">Màu sắc chính, mặc định là màu chàm.</string>
-    <string name="accent_color_desc">Màu sắc chủ đề, mặc định là màu hồng.</string>
+    <string name="primary_color_desc">Màu sắc chính.</string>
+    <string name="accent_color_desc">Màu sắc chủ đề.</string>
     <string name="update_image">Cập nhật hình ảnh</string>
     <string name="playlist_empty_text">Danh sách nhạc trống</string>
     <string name="no_playlists">Không có danh sách nhạc</string>
@@ -157,6 +159,8 @@
     <string name="pref_summary_colored_app_shortcuts">Màu sắc chủ đạo của biểu tượng ứng dụng.</string>
     <string name="pref_summary_audio_ducking">Thông báo, điều hướng, vv.</string>
     <string name="pref_summary_synchronized_lyrics_show">Hiện tại chỉ được đồng bộ lời bài hát ở định dạng LRC. Nhúng hoặc là một tập tin riêng biệt.</string>
+    <string name="pref_summary_remember_last_tab">Chuyển đến tab đã mở cuối cùng khi khởi chạy.</string>
+    <string name="pref_summary_remember_shuffle">Chế độ phát ngẫu nhiên sẽ ở lại khi chọn danh sách bài hát mới.</string>
     <string name="could_not_download_album_cover">"Kh\u00f4ng th\u1ec3 t\u1ea3i v\u1ec1 b\u00eca album ph\u00f9 h\u1ee3p."</string>
     <string name="search_hint">Tìm kiếm thư viện của bạn...</string>
     <string name="favorites">Yêu thích</string>
@@ -253,8 +257,8 @@
     <string name="playlist_is_empty">Danh sách nhạc trống</string>
     <string name="playing_notification_description">Thông báo đang phát cung cấp các hành động để phát / tạm dừng vv.</string>
     <string name="playing_notification_name">Thông báo đang phát</string>
-    <string name="only_the_first_5_colors_available">Chỉ 5 màu đầu tiên có trong phiên bản miễn phí.</string>
-    <string name="black_theme_is_a_pro_feature">Chủ đề màu đen là tính năng của 2Music Pro.</string>
+    <string name="only_the_first_5_colors_available">Chỉ 6 màu đầu tiên có trong phiên bản miễn phí.</string>
+    <string name="black_theme_is_a_pro_feature">Chủ đề này là một tính năng của 2Music Pro.</string>
     <string name="sleep_timer_is_a_pro_feature">Hẹn giờ ngủ là một tính năng của 2Music Pro</string>
     <string name="folder_view_is_a_pro_feature">Xem thư mục là một tính năng của 2Music Pro.</string>
     <string name="restoring_purchase">Đang khôi phục mua hàng...</string>
@@ -270,4 +274,29 @@
     <string name="clear_blacklist">Xóa danh sách đen</string>
     <string name="do_you_want_to_clear_the_blacklist">Bạn muốn xóa danh sách đen không?</string>
     <string name="pref_summary_blacklist">Nội dung của các thư mục chọn vào danh sách đen được ẩn trong thư viện của bạn.</string>
+    <!--Goodwy-->
+    <string name="purchase_text">Mở khóa các tính năng bổ sung, chẳng hạn như tất cả các màu chủ đề, ba chủ đề (tối không có vạch chia, đen và đen không có vạch chia) và đồng hồ ngủ.\n\n
+        Mã nguồn của 2Music có sẵn trên GitHub. Bạn được chào đón để tự biên dịch phiên bản pro miễn phí. Tuy nhiên, nếu bạn muốn hỗ trợ phát triển và nhận các bản cập nhật thông qua Google Play, hãy xem xét việc mua 2Music Pro.\n\n
+        Cảm ơn bạn,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">Văn bản màu cho các tab và thư mục</string>
+    <string name="pref_summary_color_tab_text">Tô màu cho tab hoạt động hoặc thư mục có màu nhấn.</string>
+    <string name="pref_title_color_mini_player">Màu trắng hoặc đen của máy nghe nhạc mini</string>
+    <string name="pref_summary_color_mini_player">Khi bật, nó tô màu nền của trình phát mini màu trắng.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Back</string>
+    <string name="md_cancel_label">Cancel</string>
+    <string name="md_custom_label">Custom</string>
+    <string name="md_presets_label">Presets</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">Sáng (không có dải phân cách)</string>
+    <string name="dark_nodivider_theme_name">Tối (không có dải phân cách)</string>
+    <string name="black_nodivider_theme_name">Đen (không có dải phân cách)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">Màu sắc máy nghe nhạc mini</string>
+    <string name="color_change_mini_player_instruction">Bạn có thể thay đổi màu của trình phát mini trong cài đặt. Có sẵn trong màu trắng và đen.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - Cổ điển Tối</string>
+    <string name="app_widget_small_dark_name">2Music - Nhỏ Tối</string>
+    <string name="app_widget_card_dark_name">2Music - Thẻ Tối</string>
 </resources>

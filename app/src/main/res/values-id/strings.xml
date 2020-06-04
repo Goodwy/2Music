@@ -100,7 +100,7 @@
     <string name="action_show_lyrics">Tampilkan lirik</string>
     <string name="light_theme_name">Terang</string>
     <string name="dark_theme_name">Gelap</string>
-    <string name="black_theme_name">Hitam (AMOLED)</string>
+    <string name="black_theme_name">Hitam</string>
     <string name="always">Selalu</string>
     <string name="only_on_wifi">Hanya pada Wi-Fi</string>
     <string name="never">Tidak pernah</string>
@@ -145,8 +145,8 @@
     <string name="x_selected">%1$d terpilih</string>
     <string name="primary_color">Warna utama</string>
     <string name="accent_color">Warna aksen</string>
-    <string name="primary_color_desc">Warna tema utama, distandarkan ke biru tua.</string>
-    <string name="accent_color_desc">Warna aksen tema, distandarkan ke merah muda.</string>
+    <string name="primary_color_desc">Warna tema utama.</string>
+    <string name="accent_color_desc">Warna aksen tema.</string>
     <string name="update_image">Perbaharui gambar</string>
     <string name="playlist_empty_text">Daftar putar kosong</string>
     <string name="no_playlists">Tidak ada daftar putar</string>
@@ -167,8 +167,8 @@
     <string name="pref_summary_colored_app_shortcuts">Mewarnai pintasan-pintasan dengan warna utama.</string>
     <string name="pref_summary_audio_ducking">Pemberitahuan, navigasi dll.</string>
     <string name="pref_summary_synchronized_lyrics_show">Saat ini hanya mendukung lirik dalam format LRC yang disinkronkan. Antara tertanam atau sebagai file terpisah.</string>
-    <string name="pref_summary_remember_last_tab">Pergi ke tab yang terakhir saat aplikasi dibuka</string>
-    <string name="pref_summary_remember_shuffle">Mode putar acak akan tetap aktif saat memilih daftar lagu baru</string>
+    <string name="pref_summary_remember_last_tab">Pergi ke tab yang terakhir saat aplikasi dibuka.</string>
+    <string name="pref_summary_remember_shuffle">Mode putar acak akan tetap aktif saat memilih daftar lagu baru.</string>
     <string name="could_not_download_album_cover">"Tidak dapat mengunduh sampul album yang cocok."</string>
     <string name="search_hint">Mencari pustaka Anda...</string>
     <string name="favorites">Favorit</string>
@@ -268,8 +268,8 @@
     <string name="playlist_is_empty">Daftar putar kosong</string>
     <string name="playing_notification_description">Notifikasi bermain memberi tindakan untuk putar/jeda, dll.</string>
     <string name="playing_notification_name">Notifikasi bermain</string>
-    <string name="only_the_first_5_colors_available">Hanya 5 warna pertama yang tersedia untuk versi gratis.</string>
-    <string name="black_theme_is_a_pro_feature">Tema gelap adalah fitur 2Music Pro.</string>
+    <string name="only_the_first_5_colors_available">Hanya 6 warna pertama yang tersedia untuk versi gratis.</string>
+    <string name="black_theme_is_a_pro_feature">Tema ini adalah fitur 2Music Pro.</string>
     <string name="sleep_timer_is_a_pro_feature">Pengatur waktu tidur adalah fitur 2Music Pro</string>
     <string name="folder_view_is_a_pro_feature">Tampilan folder adalah fitur 2Music Pro.</string>
     <string name="restoring_purchase">Memulihkan pembelian...</string>
@@ -300,4 +300,27 @@
     <string name="sort_order_album">Album</string>
     <string name="sort_order_year">Tahun</string>
     <string name="finish_current_music_sleep_timer">Selesaikan lagu terakhir</string>
+    <!--Goodwy-->
+    <string name="purchase_text">Membuka fitur tambahan, seperti semua warna tema, tiga tema (gelap tanpa pembagi, hitam dan hitam tanpa pembagi) dan pengatur waktu tidur.\n\nKode sumber 2Music tersedia di GitHub. Anda bebas mengkompilasi versi pro sendiri secara gratis. Namun, jika Anda ingin mendukung pengembangan dan menerima pembaruan melalui Google Play, pertimbangkan untuk membeli 2Music Pro.\n\nTerima kasih,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">Teks berwarna untuk tab dan direktori</string>
+    <string name="pref_summary_color_tab_text">Warna tab atau folder aktif dengan warna aksen.</string>
+    <string name="pref_title_color_mini_player">Warna putih atau Hitam dari pemutar mini</string>
+    <string name="pref_summary_color_mini_player">Saat dihidupkan, warna latar belakang mini player putih.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Back</string>
+    <string name="md_cancel_label">Cancel</string>
+    <string name="md_custom_label">Custom</string>
+    <string name="md_presets_label">Presets</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">Terang (tidak ada pembagi)</string>
+    <string name="dark_nodivider_theme_name">Gelap (tidak ada pembagi)</string>
+    <string name="black_nodivider_theme_name">Hitam (tidak ada pembagi)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">Warna pemutar mini</string>
+    <string name="color_change_mini_player_instruction">Anda dapat mengubah warna pemutar mini di pengaturan. Tersedia dalam warna putih dan hitam.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - Klasik Gelap</string>
+    <string name="app_widget_small_dark_name">2Music - Kecil Gelap</string>
+    <string name="app_widget_card_dark_name">2Music - Kartu Gelap</string>
 </resources>

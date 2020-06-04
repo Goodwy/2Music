@@ -100,7 +100,7 @@
     <string name="action_show_lyrics">Songtext anzeigen</string>
     <string name="light_theme_name">Hell</string>
     <string name="dark_theme_name">Dunkel</string>
-    <string name="black_theme_name">Schwarz (AMOLED)</string>
+    <string name="black_theme_name">Schwarz</string>
     <string name="always">Immer</string>
     <string name="only_on_wifi">Nur über WLAN</string>
     <string name="never">Niemals</string>
@@ -145,8 +145,8 @@
     <string name="x_selected">%1$d ausgewählt</string>
     <string name="primary_color">Hauptfarbe</string>
     <string name="accent_color">Akzentfarbe</string>
-    <string name="primary_color_desc">Die primäre Farbe, Standard ist indigo.</string>
-    <string name="accent_color_desc">Die Akzentfarbe, Standard ist pink.</string>
+    <string name="primary_color_desc">Die primäre Farbe.</string>
+    <string name="accent_color_desc">Die Akzentfarbe.</string>
     <string name="update_image">Bild aktualisieren</string>
     <string name="playlist_empty_text">Die Wiedergabeliste ist leer</string>
     <string name="no_playlists">Keine Wiedergabelisten</string>
@@ -167,8 +167,8 @@
     <string name="pref_summary_colored_app_shortcuts">Färbt die App-Shortcuts mit der Hauptfarbe.</string>
     <string name="pref_summary_audio_ducking">Benachrichtigungen, Navigation etc.</string>
     <string name="pref_summary_synchronized_lyrics_show">Aktuell werden nur synchronisierte Songtexte im LRC-Format unterstützt, entweder eingebettet oder als separate Datei.</string>
-    <string name="pref_summary_remember_last_tab">Zuletzt geöffneten Tab beim Start anzeigen</string>
-    <string name="pref_summary_remember_shuffle">Shuffle bleibt aktiviert, wenn neue Songs ausgewählt werden</string>
+    <string name="pref_summary_remember_last_tab">Zuletzt geöffneten Tab beim Start anzeigen.</string>
+    <string name="pref_summary_remember_shuffle">Shuffle bleibt aktiviert, wenn neue Songs ausgewählt werden.</string>
     <string name="could_not_download_album_cover">"Es konnte kein passendes Album Cover heruntergeladen werden."</string>
     <string name="search_hint">Durchsuche deine Mediathek</string>
     <string name="favorites">Favoriten</string>
@@ -268,8 +268,8 @@
     <string name="playlist_is_empty">Die Wiedergabeliste ist leer</string>
     <string name="playing_notification_description">Die Benachrichtigung zur Steuerung von Play/Pause etc.</string>
     <string name="playing_notification_name">Wiedergabe-Benachrichtigung</string>
-    <string name="only_the_first_5_colors_available">Nur die ersten 5 Farben sind in der kostenlosen Version verfügbar.</string>
-    <string name="black_theme_is_a_pro_feature">Das schwarze Theme ist ein 2Music Pro-Feature</string>
+    <string name="only_the_first_5_colors_available">Nur die ersten 6 Farben sind in der kostenlosen Version verfügbar.</string>
+    <string name="black_theme_is_a_pro_feature">Dieses Thema ist eine Funktion von 2Music Pro.</string>
     <string name="sleep_timer_is_a_pro_feature">Der Einschlaf-Timer ist ein 2Music Pro-Feature</string>
     <string name="folder_view_is_a_pro_feature">Die Ordner-Ansicht ist ein 2Music Pro-Feature.</string>
     <string name="restoring_purchase">Stelle Kauf wieder her...</string>
@@ -300,4 +300,27 @@
     <string name="sort_order_album">Album</string>
     <string name="sort_order_year">Jahr</string>
     <string name="finish_current_music_sleep_timer">Letzten Song beenden</string>
+    <!--Goodwy-->
+    <string name="purchase_text">Es öffnet zusätzliche Funktionen wie alle Farben des Themas, drei Themen (dunkel ohne Trennwände, schwarz und schwarz ohne Trennwände) und einen Sleep-Timer.\n\nDer Quellcode von 2Music ist auf GitHub verfügbar. Sie können die Pro-Version gerne kostenlos selbst kompilieren. Wenn Sie jedoch die Entwicklung unterstützen und Updates über Google Play erhalten möchten, sollten Sie 2Music Pro erwerben.\n\nVielen Dank,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">Farbiger Text für Registerkarten und Verzeichnisse</string>
+    <string name="pref_summary_color_tab_text">Färbt die aktive Registerkarte oder den aktiven Ordner mit einer Akzentfarbe.</string>
+    <string name="pref_title_color_mini_player">Weiße oder schwarze Farbe des Mini-Players</string>
+    <string name="pref_summary_color_mini_player">Beim Einschalten wird der Hintergrund des Mini-Players weiß gefärbt.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Zurück</string>
+    <string name="md_cancel_label">Stornieren</string>
+    <string name="md_custom_label">Benutzerdefiniert</string>
+    <string name="md_presets_label">Voreinstellungen</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">Licht (kein Teiler)</string>
+    <string name="dark_nodivider_theme_name">Dunkel (kein Teiler)</string>
+    <string name="black_nodivider_theme_name">Schwarz (kein Teiler)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">Mini-Player-Farben</string>
+    <string name="color_change_mini_player_instruction">Sie können die Farbe des Mini-Players in den Einstellungen ändern. Erhältlich in weiß und schwarz.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - Classic Dark</string>
+    <string name="app_widget_small_dark_name">2Music - Kleine Dunkelheit</string>
+    <string name="app_widget_card_dark_name">2Music - Karte dunkel</string>
 </resources>

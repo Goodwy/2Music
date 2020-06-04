@@ -99,7 +99,7 @@
     <string name="action_show_lyrics">הצג מילים</string>
     <string name="light_theme_name">בהיר</string>
     <string name="dark_theme_name">כהה</string>
-    <string name="black_theme_name">שחור (AMOLED)</string>
+    <string name="black_theme_name">שחור</string>
     <string name="always">תמיד</string>
     <string name="only_on_wifi">רק עם WI-FI</string>
     <string name="never">אף פעם</string>
@@ -131,6 +131,7 @@
     <string name="pref_title_last_added_interval">הפסקת רשימת השמעה אחרונה שהוספה</string>
     <string name="pref_title_synchronized_lyrics_show">הראה מילות שיר מסוכרנות</string>
     <string name="pref_title_remember_last_tab">זכור את הכרטיסיה האחרונה</string>
+    <string name="pref_title_remember_shuffle">זכור לערבב</string>
     <string name="no_equalizer">אקוולייזר לא נמצא</string>
     <string name="no_audio_ID">"נגן/י שיר ואז נסה/י שנית."</string>
     <string name="delete_action">מחיקה</string>
@@ -142,8 +143,8 @@
     <string name="x_selected">%1$d נבחר</string>
     <string name="primary_color">צבע ראשי</string>
     <string name="accent_color">צבע הדגשה</string>
-    <string name="primary_color_desc">צבע הנושא העיקרי, ברירת המחדל הוא אינדיגו.</string>
-    <string name="accent_color_desc">צבע ההדגשה של ערכת הנושא, ברירת המחדל הוא ורוד.</string>
+    <string name="primary_color_desc">צבע הנושא העיקרי.</string>
+    <string name="accent_color_desc">צבע ההדגשה של ערכת הנושא.</string>
     <string name="update_image">עדכון תמונה</string>
     <string name="playlist_empty_text">רשימת השמעה ריקה</string>
     <string name="no_playlists">אין רשימות השמעה</string>
@@ -164,7 +165,8 @@
     <string name="pref_summary_colored_app_shortcuts">צובע את קיצורי האפליקציה בצבע הראשי.</string>
     <string name="pref_summary_audio_ducking">התראות, ניווט וכו\'</string>
     <string name="pref_summary_synchronized_lyrics_show">כרגע מסכרן מילות שירים רק בפורמט LRC.  מילות שרים מוטבעות או בקובץ נפרד.</string>
-    <string name="pref_summary_remember_last_tab">עבור לכרטיסייה האחרונה שהייתה פתוחה בהפעלה</string>
+    <string name="pref_summary_remember_last_tab">עבור לכרטיסייה האחרונה שהייתה פתוחה בהפעלה.</string>
+    <string name="pref_summary_remember_shuffle">מצב דשדוש יישאר דולק בבחירת רשימת שירים חדשה.</string>
     <string name="could_not_download_album_cover">"\u05dc\u05d0 \u05e0\u05d9\u05ea\u05df \u05dc\u05d4\u05d5\u05e8\u05d9\u05d3 \u05ea\u05de\u05d5\u05e0\u05ea \u05d0\u05dc\u05d1\u05d5\u05dd \u05de\u05ea\u05d0\u05d9\u05de\u05d4."</string>
     <string name="search_hint">חפש בספרייה שלך...</string>
     <string name="favorites">מועדפים</string>
@@ -264,8 +266,8 @@
     <string name="playlist_is_empty">רשימת ההשמעה ריקה</string>
     <string name="playing_notification_description">התראת הניגון מספקת פעולות הפעלה/השהייה וכו\'.</string>
     <string name="playing_notification_name">התראת ניגון</string>
-    <string name="only_the_first_5_colors_available">רק 5 הצבעים הראשונים זמינים בגרסה החינמית.</string>
-    <string name="black_theme_is_a_pro_feature">ערכת הנושא השחורה היא אפשרות הזמינה ב-2Music Pro בלבד.</string>
+    <string name="only_the_first_5_colors_available">רק 6 הצבעים הראשונים זמינים בגרסה החינמית.</string>
+    <string name="black_theme_is_a_pro_feature">נושא זה הוא מאפיין של 2Music Pro.</string>
     <string name="sleep_timer_is_a_pro_feature">טיימר לשינה הוא אפשרות הזמינה ב-2Music Pro בלבד.</string>
     <string name="folder_view_is_a_pro_feature">תצוגת תיקיות היא אפשרות הזמינה ב-2Music Pro בלבד.</string>
     <string name="restoring_purchase">משחזר רכישה...</string>
@@ -295,4 +297,27 @@
     <string name="sort_order_artist">אמן</string>
     <string name="sort_order_album">אלבום</string>
     <string name="sort_order_year">שנה</string>
+    <!--Goodwy-->
+    <string name="purchase_text">Unlocks extra features, such as all theme colors, three themes (dark without dividers, black and black without dividers) and the sleep timer.\n\nThe source code of 2Music is available on GitHub. You are welcome to compile the pro version yourself for free. However, if you want to support the development and receive updates through the Google Play, consider purchasing 2Music Pro.\n\nThank you,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">טקסט צבעוני עבור כרטיסיות וספריות</string>
+    <string name="pref_summary_color_tab_text">צבע את הלשונית או התיקיה הפעילה בצבע מבטא.</string>
+    <string name="pref_title_color_mini_player">צבע לבן או שחור של הנגן מיני</string>
+    <string name="pref_summary_color_mini_player">כאשר הוא מופעל, הוא צובע את רקע נגן המיני בלבן.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">בסדר</string>
+    <string name="md_back_label">חזור</string>
+    <string name="md_cancel_label">בטל</string>
+    <string name="md_custom_label">המותאם אישית</string>
+    <string name="md_presets_label">קביעות מוגדרות מראש</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">בהיר (אין מחלק)</string>
+    <string name="dark_nodivider_theme_name">כהה (אין מחלק)</string>
+    <string name="black_nodivider_theme_name">שחור (אין מחלק)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">צבעי נגן מיני</string>
+    <string name="color_change_mini_player_instruction">באפשרותך לשנות את צבע נגן המיני בהגדרות. ניתן להשיג בשחור לבן.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - אפל קלאסי</string>
+    <string name="app_widget_small_dark_name">2Music - כהה קטן</string>
+    <string name="app_widget_card_dark_name">2Music - כרטיס כהה</string>
 </resources>

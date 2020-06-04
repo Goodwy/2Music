@@ -99,7 +99,7 @@
     <string name="action_show_lyrics">가사 보기</string>
     <string name="light_theme_name">밝은 테마</string>
     <string name="dark_theme_name">어두운 테마</string>
-    <string name="black_theme_name">검정 테마 (AMOLED)</string>
+    <string name="black_theme_name">검정 테마</string>
     <string name="always">항상</string>
     <string name="only_on_wifi">Wi-Fi 환경에서만</string>
     <string name="never">사용 안 함</string>
@@ -131,6 +131,7 @@
     <string name="pref_title_last_added_interval">최근 추가된 재생 목록 간격</string>
     <string name="pref_title_synchronized_lyrics_show">동기화된 가사 보기</string>
     <string name="pref_title_remember_last_tab">마지막 탭 기억</string>
+    <string name="pref_title_remember_shuffle">셔플 기억</string>
     <string name="no_equalizer">설치된 이퀄라이저가 없습니다.</string>
     <string name="no_audio_ID">"먼저 노래를 재생한 후 다시 시도해 주세요."</string>
     <string name="delete_action">삭제</string>
@@ -142,8 +143,8 @@
     <string name="x_selected">%1$d 선택됨</string>
     <string name="primary_color">주 색상</string>
     <string name="accent_color">강조 색상</string>
-    <string name="primary_color_desc">테마의 주 색상입니다. 기본값은 인디고색입니다.</string>
-    <string name="accent_color_desc">테마의 강조 색상입니다. 기본값은 분홍색입니다.</string>
+    <string name="primary_color_desc">테마의 주 색상입니다.</string>
+    <string name="accent_color_desc">테마의 강조 색상입니다.</string>
     <string name="update_image">이미지 갱신</string>
     <string name="playlist_empty_text">빈 재생 목록</string>
     <string name="no_playlists">재생 목록 없음</string>
@@ -166,7 +167,8 @@
     <string name="pref_summary_colored_app_shortcuts">주 색상으로 앱 바로가기 색칠</string>
     <string name="pref_summary_audio_ducking">알림 소리, 버튼음 등</string>
     <string name="pref_summary_synchronized_lyrics_show">현재는 임베딩 또는 별개로 저장된 LRC 형식의 동기화된 자막 파일만 지원합니다.</string>
-    <string name="pref_summary_remember_last_tab">마지막으로 연 탭으로 시작</string>
+    <string name="pref_summary_remember_last_tab">마지막으로 연 탭으로 시작.</string>
+    <string name="pref_summary_remember_shuffle">새 노래 목록을 선택할 때 셔플 모드는 계속 켜져 있습니다.</string>
     <string name="could_not_download_album_cover">"\uc77c\uce58\ud558\ub294 \uc568\ubc94 \ucee4\ubc84\ub97c \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4."</string>
     <string name="search_hint">저장소 검색...</string>
     <string name="favorites">즐겨찾기</string>
@@ -266,8 +268,8 @@
     <string name="playlist_is_empty">재생 목록이 비어 있습니다.</string>
     <string name="playing_notification_description">재생 알림을 통해 재생/일시 정지 등을 제어할 수 있습니다.</string>
     <string name="playing_notification_name">재생 알림</string>
-    <string name="only_the_first_5_colors_available">무료 버전에서는 첫 5개의 색상만 선택 가능합니다.</string>
-    <string name="black_theme_is_a_pro_feature">검정 테마는 프로 기능입니다.</string>
+    <string name="only_the_first_5_colors_available">무료 버전에서는 첫 6개의 색상만 선택 가능합니다.</string>
+    <string name="black_theme_is_a_pro_feature">이 테마는 2Music Pro의 기능입니다.</string>
     <string name="sleep_timer_is_a_pro_feature">수면 타이머는 프로 기능입니다.</string>
     <string name="folder_view_is_a_pro_feature">폴더 보기는 프로 기능입니다.</string>
     <string name="restoring_purchase">구매 내역을 복원하는 중…</string>
@@ -297,4 +299,29 @@
     <string name="sort_order_artist">아티스트</string>
     <string name="sort_order_album">앨범</string>
     <string name="sort_order_year">연도</string>
+    <!--Goodwy-->
+    <string name="purchase_text">모든 테마 색상, 3 가지 테마 (분할기가없는 어두운 색상, 구분자가없는 흑백) 및 절전 타이머와 같은 추가 기능을 잠금 해제합니다.\n\n
+        2Music의 소스 코드는 GitHub에서 구할 수 있습니다. 프로 버전을 무료로 직접 컴파일 할 수 있습니다. 그러나 개발을 지원하고 Google Play를 통해 업데이트를 받으려면 2Music Pro 구매를 고려하십시오.\n\n
+        감사합니다,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">탭과 디렉토리를위한 컬러 텍스트</string>
+    <string name="pref_summary_color_tab_text">활성 탭 또는 폴더를 강조 색으로 채 웁니다.</string>
+    <string name="pref_title_color_mini_player">미니 플레이어의 흰색 또는 검은 색</string>
+    <string name="pref_summary_color_mini_player">켜면 미니 플레이어의 배경색이 흰색으로 표시됩니다.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Back</string>
+    <string name="md_cancel_label">Cancel</string>
+    <string name="md_custom_label">Custom</string>
+    <string name="md_presets_label">Presets</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">밝은 테마 (분배기 없음)</string>
+    <string name="dark_nodivider_theme_name">어두운 테마 (분배기 없음)</string>
+    <string name="black_nodivider_theme_name">검정 테마 (분배기 없음)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">미니 플레이어 색상</string>
+    <string name="color_change_mini_player_instruction">설정에서 미니 플레이어의 색상을 변경할 수 있습니다. 흰색과 검은 색으로 제공됩니다.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - 클래식 어두운</string>
+    <string name="app_widget_small_dark_name">2Music - 소형 어두운</string>
+    <string name="app_widget_card_dark_name">2Music - 카드 어두운</string>
 </resources>

@@ -311,7 +311,9 @@
     <string name="dialog_ringtone_title">Set ringtone</string>
     <string name="dialog_ringtone_message">Allow 2Music to modify audio settings</string>
     <!--Goodwy-->
-    <string name="purchase_text">Unlocks extra features, such as all theme colors, three themes (dark without dividers, black and black without dividers) and the sleep timer.\n\nThe source code of 2Music is available on GitHub. You are welcome to compile the pro version yourself for free. However, if you want to support the development and receive updates through the Google Play, consider purchasing 2Music Pro.\n\nThank you,\nGoodwy</string>
+    <string name="purchase_text">Unlocks extra features, such as all theme colors, three themes (dark without dividers, black and black without dividers) and the sleep timer.\n\n
+        The source code of 2Music is available on GitHub. You are welcome to compile the pro version yourself for free. However, if you want to support the development and receive updates through the Google Play, consider purchasing 2Music Pro.\n\n
+        Thank you,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Colored text for tabs and directories</string>
     <string name="pref_summary_color_tab_text">Colors the active tab or folder with an accent color.</string>
     <string name="pref_title_color_mini_player">White or Black color of the mini player</string>

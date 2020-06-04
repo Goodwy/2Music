@@ -99,7 +99,7 @@
     <string name="action_show_lyrics">Prikaži stihove</string>
     <string name="light_theme_name">Svijetla</string>
     <string name="dark_theme_name">Tamna</string>
-    <string name="black_theme_name">Crna (AMOLED)</string>
+    <string name="black_theme_name">Crna</string>
     <string name="always">Uvijek</string>
     <string name="only_on_wifi">Samo na Wifi-ju</string>
     <string name="never">Nikad</string>
@@ -131,6 +131,7 @@
     <string name="pref_title_last_added_interval">Interval nedavnog popisa</string>
     <string name="pref_title_synchronized_lyrics_show">Prikaži sinkronizirane stihove</string>
     <string name="pref_title_remember_last_tab">Zapamti zadnju karticu</string>
+    <string name="pref_title_remember_shuffle">Sjetite se miješanja</string>
     <string name="no_equalizer">Ekvalizator nije pronađen.</string>
     <string name="no_audio_ID">"Reproducirajte nešto i pokušajte opet."</string>
     <string name="delete_action">Izbriši</string>
@@ -142,8 +143,8 @@
     <string name="x_selected">%1$d odabrano</string>
     <string name="primary_color">Primarna boja</string>
     <string name="accent_color">Naglašena boja</string>
-    <string name="primary_color_desc">Primarna boja teme, zadana je indigo plava.</string>
-    <string name="accent_color_desc">Naglašena boja teme, zadana je roza.</string>
+    <string name="primary_color_desc">Primarna boja teme.</string>
+    <string name="accent_color_desc">Naglašena boja teme.</string>
     <string name="update_image">Ažuriraj sliku</string>
     <string name="playlist_empty_text">Prazan popis naslova</string>
     <string name="no_playlists">Nema popisa naslova</string>
@@ -164,7 +165,8 @@
     <string name="pref_summary_colored_app_shortcuts">Boja prečace aplikacije u primarnu boju.</string>
     <string name="pref_summary_audio_ducking">Obavijesti, navigacija itd.</string>
     <string name="pref_summary_synchronized_lyrics_show">Trenutno su samo sinkronizirani stihovi u LRC formatu podržani. Ili ugrađeni ili u zasebnoj datoteci.</string>
-    <string name="pref_summary_remember_last_tab">Pri pokretanju otvori zadnje otvorenu karticu</string>
+    <string name="pref_summary_remember_last_tab">Pri pokretanju otvori zadnje otvorenu karticu.</string>
+    <string name="pref_summary_remember_shuffle">Način reprodukcije slučajnim redoslijedom ostaje uključen kad odaberete novi popis pjesama.</string>
     <string name="could_not_download_album_cover">"Nije mogu\u0107e preuzeti odgovaraju\u0107i omot albuma."</string>
     <string name="search_hint">Pretražite svoju biblioteku...</string>
     <string name="favorites">Favoriti</string>
@@ -264,8 +266,8 @@
     <string name="playlist_is_empty">Popis naslova je prazan</string>
     <string name="playing_notification_description">Obavijest reprodukcije pruža radnje za reprodukciju/pauzu itd.</string>
     <string name="playing_notification_name">Obavijest reprodukcije</string>
-    <string name="only_the_first_5_colors_available">Samo je prvih 5 boja dostupno u besplatnoj verziji.</string>
-    <string name="black_theme_is_a_pro_feature">Crna tema je 2Music Pro značajka.</string>
+    <string name="only_the_first_5_colors_available">Samo je prvih 6 boja dostupno u besplatnoj verziji.</string>
+    <string name="black_theme_is_a_pro_feature">Ova je tema značajka 2Music Pro-a.</string>
     <string name="sleep_timer_is_a_pro_feature">Tajmer za spavanje je 2Music Pro značajka.</string>
     <string name="folder_view_is_a_pro_feature">Prikaz mapa je 2Music Pro značajka.</string>
     <string name="restoring_purchase">Vraćanje kupnje...</string>
@@ -295,4 +297,27 @@
     <string name="sort_order_artist">Izvođač</string>
     <string name="sort_order_album">Album</string>
     <string name="sort_order_year">Godina</string>
+    <!--Goodwy-->
+    <string name="purchase_text">Otključava dodatne značajke kao što su sve tematske boje, tri teme (tamna bez razdjelnika, crna i crna bez razdjelnika) i mjerač mirovanja.\n\nIzvorni kod 2Music dostupan je na GitHub-u. Nema na čemu možete sami sastaviti pro verziju. Međutim, ako želite podržati razvoj i primati ažuriranja putem Google Playa, razmislite o kupnji 2Music Pro-a.\n\nHvala vam,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">Obojeni tekst za kartice i mape</string>
+    <string name="pref_summary_color_tab_text">Boje aktivnu karticu ili mapu akcentnom bojom.</string>
+    <string name="pref_title_color_mini_player">Bijela ili crna boja mini playera</string>
+    <string name="pref_summary_color_mini_player">Kad je uključen, pozadinu mini playera obojite u bijelu.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">leđa</string>
+    <string name="md_cancel_label">Otkazati</string>
+    <string name="md_custom_label">Prilagođen</string>
+    <string name="md_presets_label">Presets</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">Svjetlo (nema razdjelnika)</string>
+    <string name="dark_nodivider_theme_name">Tamna (nema razdjelnika)</string>
+    <string name="black_nodivider_theme_name">Crna (nema razdjelnika)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">Boje mini igrača</string>
+    <string name="color_change_mini_player_instruction">Možete promijeniti boju mini playera u postavkama. Dostupno u bijeloj i crnoj boji.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - Klasični tamna</string>
+    <string name="app_widget_small_dark_name">2Music - Mali tamna</string>
+    <string name="app_widget_card_dark_name">2Music - Kartica tamna</string>
 </resources>

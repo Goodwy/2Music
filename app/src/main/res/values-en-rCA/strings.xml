@@ -97,7 +97,7 @@
     <string name="action_show_lyrics">Show lyrics</string>
     <string name="light_theme_name">Light</string>
     <string name="dark_theme_name">Dark</string>
-    <string name="black_theme_name">Black (AMOLED)</string>
+    <string name="black_theme_name">Black</string>
     <string name="always">Always</string>
     <string name="only_on_wifi">Only on Wi-Fi</string>
     <string name="never">Never</string>
@@ -137,8 +137,8 @@
     <string name="x_selected">%1$d selected</string>
     <string name="primary_color">Primary colour</string>
     <string name="accent_color">Accent colour</string>
-    <string name="primary_color_desc">The primary theme color, defaults to indigo.</string>
-    <string name="accent_color_desc">The accent theme color, defaults to pink.</string>
+    <string name="primary_color_desc">The primary theme color.</string>
+    <string name="accent_color_desc">The accent theme color.</string>
     <string name="update_image">Update image</string>
     <string name="playlist_empty_text">Empty playlist</string>
     <string name="no_playlists">No playlists</string>
@@ -254,8 +254,8 @@
     <string name="playlist_is_empty">Playlist is empty</string>
     <string name="playing_notification_description">The playing notification provides actions for play/pause etc.</string>
     <string name="playing_notification_name">Playing notification</string>
-    <string name="only_the_first_5_colors_available">Only the first 5 colors are available in the free version.</string>
-    <string name="black_theme_is_a_pro_feature">The black theme is 2Music Pro feature.</string>
+    <string name="only_the_first_5_colors_available">Only the first 6 colors are available in the free version.</string>
+    <string name="black_theme_is_a_pro_feature">This theme is a feature of 2Music Pro.</string>
     <string name="sleep_timer_is_a_pro_feature">Sleep timer is a 2Music Pro feature</string>
     <string name="folder_view_is_a_pro_feature">Folder view is a 2Music Pro feature.</string>
     <string name="restoring_purchase">Restoring purchase…</string>

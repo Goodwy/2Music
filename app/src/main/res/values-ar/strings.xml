@@ -297,11 +297,7 @@
     <string name="sort_order_album">الألبوم</string>
     <string name="sort_order_year">السنة</string>
     <!--Goodwy-->
-    <string name="purchase_text">\n\nيفتح ميزات إضافية ، مثل جميع ألوان السمات وثلاثة سمات (داكن بدون فواصل وأسود وأسود بدون فواصل) ومؤقت النوم.
-
-كود مصدر 2Music متاح على جيثب. نرحب بك لتجميع النسخة الاحترافية بنفسك مجانًا. ومع ذلك ، إذا كنت ترغب في دعم التطوير وتلقي التحديثات من خلال Google Play ، ففكر في شراء 2Music Pro.\n\n
-
-شكرا لك،</string>
+    <string name="purchase_text">Unlocks extra features, such as all theme colors, three themes (dark without dividers, black and black without dividers) and the sleep timer.\n\nThe source code of 2Music is available on GitHub. You are welcome to compile the pro version yourself for free. However, if you want to support the development and receive updates through the Google Play, consider purchasing 2Music Pro.\n\nThank you,\nGoodwy</string>
     <string name="pref_title_color_tab_text">نص ملون لعلامات التبويب والأدلة</string>
     <string name="pref_summary_color_tab_text">تلوين علامة التبويب أو المجلد النشط بلون التمييز.</string>
     <string name="pref_title_color_mini_player">اللون الأبيض أو الأسود للمشغل الصغير</string>

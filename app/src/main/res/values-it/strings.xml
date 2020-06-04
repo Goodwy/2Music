@@ -100,7 +100,7 @@
     <string name="action_show_lyrics">Mostra testo</string>
     <string name="light_theme_name">Chiaro</string>
     <string name="dark_theme_name">Scuro</string>
-    <string name="black_theme_name">Nero (AMOLED)</string>
+    <string name="black_theme_name">Nero</string>
     <string name="always">Sempre</string>
     <string name="only_on_wifi">Solo se connessi a Wi-Fi</string>
     <string name="never">Mai</string>
@@ -145,8 +145,8 @@
     <string name="x_selected">%1$d selezionati</string>
     <string name="primary_color">Colore principale</string>
     <string name="accent_color">Colore secondario</string>
-    <string name="primary_color_desc">Colore principale, predefinito impostato su indaco.</string>
-    <string name="accent_color_desc">Colore secondario, predefinito impostato su rosa</string>
+    <string name="primary_color_desc">Colore principale.</string>
+    <string name="accent_color_desc">Colore secondario.</string>
     <string name="update_image">Aggiorna immagine</string>
     <string name="playlist_empty_text">Playlist vuota</string>
     <string name="no_playlists">Nessuna playlist</string>
@@ -167,8 +167,8 @@
     <string name="pref_summary_colored_app_shortcuts">Colora le scorciatoie dell\'app con il colore principale.</string>
     <string name="pref_summary_audio_ducking">Notifiche, navigazione ecc.</string>
     <string name="pref_summary_synchronized_lyrics_show">Attualmente solo i testi sincronizzati in formato LRC sono supportati. Sia integrati o come file separati.</string>
-    <string name="pref_summary_remember_last_tab">All\'avvio vai all\'ultima scheda aperta</string>
-    <string name="pref_summary_remember_shuffle">La modalità casuale rimarrà attiva quando si seleziona un nuovo elenco di brani</string>
+    <string name="pref_summary_remember_last_tab">All\'avvio vai all\'ultima scheda aperta.</string>
+    <string name="pref_summary_remember_shuffle">La modalità casuale rimarrà attiva quando si seleziona un nuovo elenco di brani.</string>
     <string name="could_not_download_album_cover">"Impossibile scaricare una copertina adatta."</string>
     <string name="search_hint">Cercando nella tua libreria...</string>
     <string name="favorites">Preferiti</string>
@@ -269,8 +269,8 @@
     <string name="playlist_is_empty">La playlist è vuota</string>
     <string name="playing_notification_description">La notifica di riproduzione offre azioni per play/pausa ecc.</string>
     <string name="playing_notification_name">Notifica di riproduzione</string>
-    <string name="only_the_first_5_colors_available">Solo i primi cinque colori sono disponibili nella versione gratuita.</string>
-    <string name="black_theme_is_a_pro_feature">Il tema scuro è una funzionalità di 2Music Pro.</string>
+    <string name="only_the_first_5_colors_available">Solo i primi 6 colori sono disponibili nella versione gratuita.</string>
+    <string name="black_theme_is_a_pro_feature">Questo tema è una funzionalità di 2Music Pro.</string>
     <string name="sleep_timer_is_a_pro_feature">Il timer di spegnimento è una funzionalità di 2Music Pro.</string>
     <string name="folder_view_is_a_pro_feature">La visualizzazione delle cartelle è una funzionalità di 2Music Pro.</string>
     <string name="restoring_purchase">Ripristinando l\'acquisto...</string>
@@ -301,4 +301,27 @@
     <string name="sort_order_album">Album</string>
     <string name="sort_order_year">Anno</string>
     <string name="finish_current_music_sleep_timer">Termina l\'ultimo brano</string>
+    <!--Goodwy-->
+    <string name="purchase_text">Sblocca funzionalità extra, come tutti i colori dei temi, tre temi (scuro senza divisori, nero e nero senza divisori) e il timer di spegnimento.\n\nIl codice sorgente di 2Music è disponibile su GitHub. Puoi compilare tu stesso la versione pro gratuitamente. Tuttavia, se desideri supportare lo sviluppo e ricevere aggiornamenti tramite Google Play, prendi in considerazione l\'acquisto di 2Music Pro.\n\nGrazie,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">Testo colorato per schede e directory</string>
+    <string name="pref_summary_color_tab_text">Colora la scheda o la cartella attiva con un colore di accento.</string>
+    <string name="pref_title_color_mini_player">Colore bianco o nero del mini player</string>
+    <string name="pref_summary_color_mini_player">Quando è acceso, colora lo sfondo del mini player in bianco.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Indietro</string>
+    <string name="md_cancel_label">Annulla</string>
+    <string name="md_custom_label">Costume</string>
+    <string name="md_presets_label">Presets</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">Chiaro (nessun divisore)</string>
+    <string name="dark_nodivider_theme_name">Scuro (nessun divisore)</string>
+    <string name="black_nodivider_theme_name">Nero (nessun divisore)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">Colori del mini player</string>
+    <string name="color_change_mini_player_instruction">Puoi cambiare il colore del mini player nelle impostazioni. Disponibile in bianco e nero.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - Classico Buio</string>
+    <string name="app_widget_small_dark_name">2Music - Piccolo Buio</string>
+    <string name="app_widget_card_dark_name">2Music - Scheda Buio</string>
 </resources>

@@ -131,6 +131,7 @@
     <string name="pref_title_last_added_interval">Utoljára hozzáadott lejátszási lista intervallum</string>
     <string name="pref_title_synchronized_lyrics_show">Szinkronizált dalszöveg</string>
     <string name="pref_title_remember_last_tab">Emlékezz az utolsó fülre</string>
+    <string name="pref_title_remember_shuffle">Ne felejtsd el a véletlenszerű keverést</string>
     <string name="no_equalizer">Nem található hangszínszabályzó.</string>
     <string name="no_audio_ID">"Először játsszon le egy dalt, majd próbálja újra."</string>
     <string name="delete_action">Törlés</string>
@@ -142,8 +143,8 @@
     <string name="x_selected">%1$d kiválasztva</string>
     <string name="primary_color">Elsődleges szín</string>
     <string name="accent_color">Másodlagos szín</string>
-    <string name="primary_color_desc">Az elsődleges szín, alapértelmezetten indigó.</string>
-    <string name="accent_color_desc">A másodlagos szín, alapértelmezetten rózsaszín.</string>
+    <string name="primary_color_desc">Az elsődleges szín.</string>
+    <string name="accent_color_desc">A másodlagos szín.</string>
     <string name="update_image">Kép frissítése</string>
     <string name="playlist_empty_text">Üres lejátszási lista</string>
     <string name="no_playlists">Nincsenek lejátszási listák</string>
@@ -164,7 +165,8 @@
     <string name="pref_summary_colored_app_shortcuts">Az alkalmazás hivatkozások színezése az elsődleges szín szerint.</string>
     <string name="pref_summary_audio_ducking">Beérkező értesítéskor a lejátszás hangereje lecsökken, majd az értesítés végén visszaáll az eredeti hangerőre.</string>
     <string name="pref_summary_synchronized_lyrics_show">Jelenleg csak az LRC formátumban szinkronizált szövegeket támogatják. Beágyazott vagy külön fájlként.</string>
-    <string name="pref_summary_remember_last_tab">Menjen az utolsó megnyitott fülre az indításkor</string>
+    <string name="pref_summary_remember_last_tab">Menjen az utolsó megnyitott fülre az indításkor.</string>
+    <string name="pref_summary_remember_shuffle">Az új műsorszám-lista kiválasztásakor a véletlenszerű lejátszás mód bekapcsolt állapotban marad.</string>
     <string name="could_not_download_album_cover">"Nem siker\u00fclt let\u00f6lteni a megfelel\u0151 albumbor\u00edt\u00f3t."</string>
     <string name="search_hint">Keresés a könyvtárban...</string>
     <string name="favorites">Kedvencek</string>
@@ -264,7 +266,7 @@
     <string name="playlist_is_empty">A lejátszási lista üres</string>
     <string name="playing_notification_description">A lejátszási értesítés lejátszási / szüneteltetési intézkedéseket tartalmaz.</string>
     <string name="playing_notification_name">Értesítés lejátszása</string>
-    <string name="only_the_first_5_colors_available">Csak az első 5 szín áll rendelkezésre az ingyenes verzióban.</string>
+    <string name="only_the_first_5_colors_available">Csak az első 6 szín áll rendelkezésre az ingyenes verzióban.</string>
     <string name="black_theme_is_a_pro_feature">A fekete téma a 2Music Pro funkcióban van.</string>
     <string name="sleep_timer_is_a_pro_feature">Az elalvásidőzitő a 2Music Pro funkcióban van.</string>
     <string name="folder_view_is_a_pro_feature">A mappa nézete a  2Music Pro funkcióban van.</string>
@@ -295,4 +297,27 @@
     <string name="sort_order_artist">Előadó</string>
     <string name="sort_order_album">Album</string>
     <string name="sort_order_year">Év</string>
+    <!--Goodwy-->
+    <string name="purchase_text">Kinyit egy extra funkciót, például az összes témaszínt, három témát (sötét elválasztó nélkül, fekete és fekete elválasztó nélkül) és az alvásidőzítőt.\n\nA 2Music forráskódja elérhető a GitHub-on. Üdvözöljük Önt, hogy ingyenesen készítse el a profi verziót. Ha azonban támogatni szeretné a fejlesztést és frissítéseket szeretne kapni a Google Playen, fontolja meg a 2Music Pro vásárlását.\n\nKöszönöm,\nGoodwy</string>
+    <string name="pref_title_color_tab_text">Színes szöveg a fülekhez és a könyvtárakhoz</string>
+    <string name="pref_summary_color_tab_text">Az aktív lapot vagy mappát ékezetes színnel színezi.</string>
+    <string name="pref_title_color_mini_player">A mini-lejátszó fehér vagy fekete színű</string>
+    <string name="pref_summary_color_mini_player">Bekapcsoláskor fehér színűre színezi a mini lejátszó hátterét.</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Back</string>
+    <string name="md_cancel_label">Cancel</string>
+    <string name="md_custom_label">Custom</string>
+    <string name="md_presets_label">Presets</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">Világos (nincs elválasztó)</string>
+    <string name="dark_nodivider_theme_name">Sötét (nincs elválasztó)</string>
+    <string name="black_nodivider_theme_name">Fekete (nincs elválasztó)</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">Mini lejátszó színei</string>
+    <string name="color_change_mini_player_instruction">A mini lejátszó színét megváltoztathatja a beállításokban. Fehér és fekete színben kapható.</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - Klasszikus Sötét</string>
+    <string name="app_widget_small_dark_name">2Music - Kicsi Sötét</string>
+    <string name="app_widget_card_dark_name">2Music - Kártya Sötét</string>
 </resources>

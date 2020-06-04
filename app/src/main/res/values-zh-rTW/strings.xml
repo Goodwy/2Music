@@ -146,8 +146,8 @@
     <string name="x_selected">已選取 %1$d 個</string>
     <string name="primary_color">主色調</string>
     <string name="accent_color">重點色調</string>
-    <string name="primary_color_desc">主色調，預設為靛青色。</string>
-    <string name="accent_color_desc">重點色調，預設為粉紅色。</string>
+    <string name="primary_color_desc">主色調。</string>
+    <string name="accent_color_desc">重點色調。</string>
     <string name="update_image">更新圖片</string>
     <string name="playlist_empty_text">播放清單是空的</string>
     <string name="no_playlists">沒有播放清單</string>
@@ -168,8 +168,8 @@
     <string name="pref_summary_colored_app_shortcuts">將主色調設為應用快捷方式的顏色</string>
     <string name="pref_summary_audio_ducking">通知鈴聲、導航語音等。</string>
     <string name="pref_summary_synchronized_lyrics_show">目前僅支援 LRC 格式歌詞。內嵌或外掛皆可。</string>
-    <string name="pref_summary_remember_last_tab">開啟時顯示最後使用的頁面</string>
-    <string name="pref_summary_remember_shuffle">當選擇新歌曲列表時維持隨機播放模式</string>
+    <string name="pref_summary_remember_last_tab">開啟時顯示最後使用的頁面。</string>
+    <string name="pref_summary_remember_shuffle">當選擇新歌曲列表時維持隨機播放模式。</string>
     <string name="could_not_download_album_cover">"\u7121\u6cd5\u4e0b\u8f09\u5408\u9069\u7684\u5c08\u8f2f\u5c01\u9762\u3002"</string>
     <string name="search_hint">搜尋音樂庫…</string>
     <string name="favorites">最愛</string>
@@ -269,8 +269,8 @@
     <string name="playlist_is_empty">播放清單是空的</string>
     <string name="playing_notification_description">播放中通知提供了播放/暫停等操作</string>
     <string name="playing_notification_name">播放中通知</string>
-    <string name="only_the_first_5_colors_available">免費版僅能使用前 5 個顏色</string>
-    <string name="black_theme_is_a_pro_feature">黑色主題僅供 2Music Pro 使用</string>
+    <string name="only_the_first_5_colors_available">免費版僅能使用前 6 個顏色</string>
+    <string name="black_theme_is_a_pro_feature">此主题是 2Music Pro 的功能。</string>
     <string name="sleep_timer_is_a_pro_feature">睡眠定時器僅供 2Music Pro 使用</string>
     <string name="folder_view_is_a_pro_feature">文件夾檢視僅供 2Music Pro 使用</string>
     <string name="restoring_purchase">恢復購買中...</string>
@@ -301,4 +301,29 @@
     <string name="sort_order_album">專輯</string>
     <string name="sort_order_year">年份</string>
     <string name="finish_current_music_sleep_timer">歌曲全數播放完畢</string>
+    <!--Goodwy-->
+    <string name="purchase_text">解锁额外的功能，例如所有主题颜色，三个主题（无分隔线的黑色，无分隔线的黑色和黑色）和睡眠计时器。\n\n
+        2Music的源代码可在GitHub上找到。 欢迎您免费自己编译专业版。 但是，如果您想支持开发并通过Google Play接收更新，请考虑购买2Music Pro。\n\n
+        谢谢，\nGoodwy</string>
+    <string name="pref_title_color_tab_text">选项卡和目录的彩色文本</string>
+    <string name="pref_summary_color_tab_text">使用强调色为活动的选项卡或文件夹上色。</string>
+    <string name="pref_title_color_mini_player">迷你播放器的白色或黑色</string>
+    <string name="pref_summary_color_mini_player">启用后，它将用白色将迷你播放器的背景上色。</string>
+    <!--ColorChooserDialog-->
+    <string name="md_done_label">Ok</string>
+    <string name="md_back_label">Back</string>
+    <string name="md_cancel_label">Cancel</string>
+    <string name="md_custom_label">Custom</string>
+    <string name="md_presets_label">Presets</string>
+    <!--No divider theme-->
+    <string name="light_nodivider_theme_name">浅色 （无分隔线）</string>
+    <string name="dark_nodivider_theme_name">暗色 （无分隔线）</string>
+    <string name="black_nodivider_theme_name">黑色 （无分隔线）</string>
+    <!--Intro-->
+    <string name="label_color_mini_player">迷你播放器颜色</string>
+    <string name="color_change_mini_player_instruction">您可以在设置中更改迷你播放器的颜色。 有白色和黑色可供选择。</string>
+    <!--Widget-->
+    <string name="app_widget_classic_dark_name">2Music - 经典暗色</string>
+    <string name="app_widget_small_dark_name">2Music - 小尺寸暗色</string>
+    <string name="app_widget_card_dark_name">2Music - 卡片暗色</string>
 </resources>
