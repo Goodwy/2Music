@@ -304,21 +304,29 @@
     <string name="purchase_text">Membuka fitur tambahan, seperti semua warna tema, tiga tema (gelap tanpa pembagi, hitam dan hitam tanpa pembagi) dan pengatur waktu tidur.\n\nKode sumber 2Music tersedia di GitHub. Anda bebas mengkompilasi versi pro sendiri secara gratis. Namun, jika Anda ingin mendukung pengembangan dan menerima pembaruan melalui Google Play, pertimbangkan untuk membeli 2Music Pro.\n\nTerima kasih,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Teks berwarna untuk tab dan direktori</string>
     <string name="pref_summary_color_tab_text">Warna tab atau folder aktif dengan warna aksen.</string>
-    <string name="pref_title_color_mini_player">Warna putih atau Hitam dari pemutar mini</string>
-    <string name="pref_summary_color_mini_player">Saat dihidupkan, warna latar belakang mini player putih.</string>
+    <string name="pref_title_color_mini_player">Tema pemain mini</string>
+    <string name="pref_summary_color_mini_player">Warna tema pemain mini.</string>
+    <string name="pref_title_color_mini_player_icon">Ikon mini player berwarna</string>
+    <string name="pref_summary_color_mini_player_icon">Warna ikon pemain mini dalam warna aksen.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Putih</string>
+    <string name="mini_player_gray_theme_name">Abu-abu</string>
+    <string name="mini_player_dark_theme_name">Gelap</string>
+    <string name="mini_player_black_theme_name">Hitam</string>
+    <string name="mini_player_green_theme_name">Hijau</string>
     <!--ColorChooserDialog-->
-    <string name="md_done_label">Ok</string>
-    <string name="md_back_label">Back</string>
-    <string name="md_cancel_label">Cancel</string>
-    <string name="md_custom_label">Custom</string>
-    <string name="md_presets_label">Presets</string>
+    <string name="md_done_label">Baik</string>
+    <string name="md_back_label">Kembali</string>
+    <string name="md_cancel_label">Membatalkan</string>
+    <string name="md_custom_label">Adat</string>
+    <string name="md_presets_label">Preset</string>
     <!--No divider theme-->
     <string name="light_nodivider_theme_name">Terang (tidak ada pembagi)</string>
     <string name="dark_nodivider_theme_name">Gelap (tidak ada pembagi)</string>
     <string name="black_nodivider_theme_name">Hitam (tidak ada pembagi)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Warna pemutar mini</string>
-    <string name="color_change_mini_player_instruction">Anda dapat mengubah warna pemutar mini di pengaturan. Tersedia dalam warna putih dan hitam.</string>
+    <string name="label_color_mini_player">Tema pemain mini</string>
+    <string name="color_change_mini_player_instruction">Anda dapat mengubah tema pemutar mini di pengaturan.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Klasik Gelap</string>
     <string name="app_widget_small_dark_name">2Music - Kecil Gelap</string>

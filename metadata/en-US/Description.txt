@@ -5,8 +5,8 @@
 Features:
 - no ads
 - simple design
-- customizability, theme engine with many different colors to choose from.
-- dynamic colors, the UI colors change dynamically to match the main contents base color.
+- customizability, theme engine with many different colors to choose from
+- dynamic colors, the UI colors change dynamically to match the main contents base color
 - create and edit playlists
 - homescreen widget
 - lockscreen playback controls

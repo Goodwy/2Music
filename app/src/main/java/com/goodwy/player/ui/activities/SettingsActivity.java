@@ -78,7 +78,7 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
     public void onColorSelection(@NonNull ColorChooserDialog dialog, @ColorInt int selectedColor) {
         switch (dialog.getTitle()) {
             case R.string.primary_color:
-                if (!App.isProVersion()) {
+                /*if (!App.isProVersion()) {
                     Arrays.sort(NonProAllowedColors.PRIMARY_COLORS);
                     if (Arrays.binarySearch(NonProAllowedColors.PRIMARY_COLORS, selectedColor) < 0) {
                         // color wasn't found
@@ -86,13 +86,13 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
                         startActivity(new Intent(this, PurchaseActivity.class));
                         return;
                     }
-                }
+                }*/
                 ThemeStore.editTheme(this)
                         .primaryColor(selectedColor)
                         .commit();
                 break;
             case R.string.accent_color:
-                if (!App.isProVersion()) {
+                /*if (!App.isProVersion()) {
                     Arrays.sort(NonProAllowedColors.ACCENT_COLORS);
                     if (Arrays.binarySearch(NonProAllowedColors.ACCENT_COLORS, selectedColor) < 0) {
                         // color wasn't found
@@ -100,7 +100,7 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
                         startActivity(new Intent(this, PurchaseActivity.class));
                         return;
                     }
-                }
+                }*/
                 ThemeStore.editTheme(this)
                         .accentColor(selectedColor)
                         .commit();
@@ -201,6 +201,25 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
                 }
 
                 setSummary(generalTheme, o);
+
+                ThemeStore.markChanged(getActivity());
+
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N_MR1) {
+                    // Set the new theme so that updateAppShortcuts can pull it
+                    getActivity().setTheme(PreferenceUtil.getThemeResFromPrefValue(themeName));
+                    new DynamicShortcutManager(getActivity()).updateDynamicShortcuts();
+                }
+
+                getActivity().recreate();
+                return true;
+            });
+
+            final Preference miniPlayerTheme = findPreference("mini_player_theme");
+            setSummary(miniPlayerTheme);
+            miniPlayerTheme.setOnPreferenceChangeListener((preference, o) -> {
+                String themeName = (String) o;
+
+                setSummary(miniPlayerTheme, o);
 
                 ThemeStore.markChanged(getActivity());
 
@@ -580,12 +599,12 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
                 });
             }
 
-            TwoStatePreference colorMiniPlayer = (TwoStatePreference) findPreference("color_mini_player");
+            TwoStatePreference colorMiniPlayerIcon = (TwoStatePreference) findPreference("color_mini_player_icon");
             if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-                colorMiniPlayer.setVisible(false);
+                colorMiniPlayerIcon.setVisible(false);
             } else {
-                colorMiniPlayer.setChecked(ThemeStore.coloredStatusBar(getActivity()));
-                colorMiniPlayer.setOnPreferenceChangeListener((preference, newValue) -> {
+                colorMiniPlayerIcon.setChecked(ThemeStore.coloredStatusBar(getActivity()));
+                colorMiniPlayerIcon.setOnPreferenceChangeListener((preference, newValue) -> {
                     ThemeStore.editTheme(getActivity())
                             .coloredStatusBar((Boolean) newValue)
                             .commit();

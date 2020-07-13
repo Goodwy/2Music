@@ -239,8 +239,16 @@
         Obrigado,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Texto colorido para guias e diretórios</string>
     <string name="pref_summary_color_tab_text">Colore a guia ou pasta ativa com uma cor de destaque.</string>
-    <string name="pref_title_color_mini_player">Cor branca ou preta do mini player</string>
-    <string name="pref_summary_color_mini_player">Quando ligado, pinta o fundo do mini player em branco.</string>
+    <string name="pref_title_color_mini_player">Tema do mini player</string>
+    <string name="pref_summary_color_mini_player">A cor do tema do mini player.</string>
+    <string name="pref_title_color_mini_player_icon">Ícone colorido mini jogador</string>
+    <string name="pref_summary_color_mini_player_icon">Colore o ícone do mini player na cor de destaque.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Branco</string>
+    <string name="mini_player_gray_theme_name">Cinzento</string>
+    <string name="mini_player_dark_theme_name">Escuro</string>
+    <string name="mini_player_black_theme_name">Preto</string>
+    <string name="mini_player_green_theme_name">Verde</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Back</string>
@@ -252,8 +260,8 @@
     <string name="dark_nodivider_theme_name">Escuro (sem divisor)</string>
     <string name="black_nodivider_theme_name">Preto (sem divisor)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Cores do mini player</string>
-    <string name="color_change_mini_player_instruction">Você pode alterar a cor do mini player nas configurações. Disponível em branco e preto.</string>
+    <string name="label_color_mini_player">Tema do mini player</string>
+    <string name="color_change_mini_player_instruction">Você pode alterar o tema do mini player nas configurações.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Clássico Escuro</string>
     <string name="app_widget_small_dark_name">2Music - Pequeno Escuro</string>

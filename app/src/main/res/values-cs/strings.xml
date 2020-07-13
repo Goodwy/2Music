@@ -300,8 +300,16 @@
     <string name="purchase_text">Odemkne další funkce, například všechny barvy motivů, tři motivy (tmavé bez děličů, černé a černé bez děličů) a časovač vypnutí.\n\nZdrojový kód 2Music je k dispozici na GitHubu. Jste vítáni, abyste si sestavili pro verzi sami zdarma. Pokud však chcete vývoj podpořit a dostávat aktualizace prostřednictvím Google Play, zvažte nákup 2Music Pro.\n\nDěkuju,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Barevný text pro karty a adresáře</string>
     <string name="pref_summary_color_tab_text">Vybarví aktivní kartu nebo složku zvýrazněnou barvou.</string>
-    <string name="pref_title_color_mini_player">Bílá nebo černá barva mini přehrávače</string>
-    <string name="pref_summary_color_mini_player">Když je zapnutá, zbarví pozadí mini přehrávače bíle.</string>
+    <string name="pref_title_color_mini_player">Téma mini hráče</string>
+    <string name="pref_summary_color_mini_player">Barva motivu mini přehrávače.</string>
+    <string name="pref_title_color_mini_player_icon">Barevná ikona mini hráče</string>
+    <string name="pref_summary_color_mini_player_icon">Barevná ikona přehrávače v akcentní barvě.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Bílý</string>
+    <string name="mini_player_gray_theme_name">Šedá</string>
+    <string name="mini_player_dark_theme_name">Temný</string>
+    <string name="mini_player_black_theme_name">Černá</string>
+    <string name="mini_player_green_theme_name">Zelená</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Zadní</string>
@@ -313,8 +321,8 @@
     <string name="dark_nodivider_theme_name">Tmavý (bez děliče)</string>
     <string name="black_nodivider_theme_name">Černá (bez děliče)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Barvy mini přehrávačů</string>
-    <string name="color_change_mini_player_instruction">V nastavení můžete změnit barvu mini přehrávače. K dispozici v bílé a černé.</string>
+    <string name="label_color_mini_player">Téma mini hráče</string>
+    <string name="color_change_mini_player_instruction">V nastavení můžete změnit motiv mini přehrávače.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Klasická tma</string>
     <string name="app_widget_small_dark_name">2Music - Malá tma</string>

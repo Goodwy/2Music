@@ -269,8 +269,16 @@
     <string name="purchase_text">Відкриває додаткові функції, такі як всі кольори теми, три теми (темна без роздільників, чорна і чорна без роздільників) і таймер сну.\n\nВихідний код 2Music доступний на GitHub. Ви можете безкоштовно скомпілювати професійну версію. Однак, якщо ви хочете підтримати розробку і отримувати оновлення через Google Play, розгляньте можливість покупки 2Music Pro.\n\nДякуємо,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Кольоровий текст вкладок і каталогів</string>
     <string name="pref_summary_color_tab_text">Забарвлює активну вкладку або папку акцентним кольором.</string>
-    <string name="pref_title_color_mini_player">Білий або Чорний колір міні плеєра</string>
-    <string name="pref_summary_color_mini_player">При включенні забарвлює фон міні плеєра білим кольором.</string>
+    <string name="pref_title_color_mini_player">Тема міні плеєра</string>
+    <string name="pref_summary_color_mini_player">Колір теми міні плеєра.</string>
+    <string name="pref_title_color_mini_player_icon">Кольорова іконка на міні плеєрі</string>
+    <string name="pref_summary_color_mini_player_icon">Забарвлює іконку відтворення / пауза акцентним кольором.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Білий</string>
+    <string name="mini_player_gray_theme_name">Сірий</string>
+    <string name="mini_player_dark_theme_name">Темний</string>
+    <string name="mini_player_black_theme_name">Чорний</string>
+    <string name="mini_player_green_theme_name">Зелений</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Назад</string>
@@ -282,8 +290,8 @@
     <string name="dark_nodivider_theme_name">Темна (без роздільників)</string>
     <string name="black_nodivider_theme_name">Чорна (без роздільників)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Кольори міні плеєра</string>
-    <string name="color_change_mini_player_instruction">Ви можете змінити колір міні плеєра в налаштуваннях. Доступний білий і чорний колір.</string>
+    <string name="label_color_mini_player">Теми для міні плеєра</string>
+    <string name="color_change_mini_player_instruction">Ви можете змінити тему міні плеєра в налаштуваннях.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Класичний темний</string>
     <string name="app_widget_small_dark_name">2Music - Маленький темний</string>

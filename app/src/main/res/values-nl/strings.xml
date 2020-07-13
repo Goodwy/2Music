@@ -303,8 +303,16 @@
         Dank u,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Gekleurde tekst voor tabbladen en mappen</string>
     <string name="pref_summary_color_tab_text">Kleurt het actieve tabblad of de actieve map met een accentkleur.</string>
-    <string name="pref_title_color_mini_player">Witte of zwarte kleur van de minispeler</string>
-    <string name="pref_summary_color_mini_player">Wanneer ingeschakeld, kleurt het de achtergrond van de minispeler in het wit.</string>
+    <string name="pref_title_color_mini_player">Mini speler thema</string>
+    <string name="pref_summary_color_mini_player">De themakleur van de minispeler.</string>
+    <string name="pref_title_color_mini_player_icon">Gekleurd minispelerpictogram</string>
+    <string name="pref_summary_color_mini_player_icon">Kleurt het minispelerpictogram in de accentkleur.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Wit</string>
+    <string name="mini_player_gray_theme_name">Grijs</string>
+    <string name="mini_player_dark_theme_name">Donker</string>
+    <string name="mini_player_black_theme_name">Zwart</string>
+    <string name="mini_player_green_theme_name">Groen</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Terug</string>
@@ -316,8 +324,8 @@
     <string name="dark_nodivider_theme_name">Donker (geen verdeler)</string>
     <string name="black_nodivider_theme_name">Zwart (geen verdeler)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Mini player kleuren</string>
-    <string name="color_change_mini_player_instruction">Je kunt de kleur van de minispeler wijzigen in de instellingen. Verkrijgbaar in wit en zwart.</string>
+    <string name="label_color_mini_player">Mini speler thema</string>
+    <string name="color_change_mini_player_instruction">Je kunt het thema van de minispeler wijzigen in de instellingen.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Klassiek Donker</string>
     <string name="app_widget_small_dark_name">2Music - Klein Donker</string>

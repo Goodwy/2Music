@@ -316,8 +316,16 @@
         Thank you,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Colored text for tabs and directories</string>
     <string name="pref_summary_color_tab_text">Colors the active tab or folder with an accent color.</string>
-    <string name="pref_title_color_mini_player">White or Black color of the mini player</string>
-    <string name="pref_summary_color_mini_player">When turned on, it colors the background of the mini player in white.</string>
+    <string name="pref_title_color_mini_player">Mini player theme</string>
+    <string name="pref_summary_color_mini_player">The mini player theme color.</string>
+    <string name="pref_title_color_mini_player_icon">Colored mini player icon</string>
+    <string name="pref_summary_color_mini_player_icon">Colors the mini player icon in the accent color.</string>
+        <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">White</string>
+    <string name="mini_player_gray_theme_name">Gray</string>
+    <string name="mini_player_dark_theme_name">Dark</string>
+    <string name="mini_player_black_theme_name">Black</string>
+    <string name="mini_player_green_theme_name">Green</string>
         <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Back</string>
@@ -329,8 +337,8 @@
     <string name="dark_nodivider_theme_name">Dark (no divider)</string>
     <string name="black_nodivider_theme_name">Black (no divider)</string>
         <!--Intro-->
-    <string name="label_color_mini_player">Mini player colors</string>
-    <string name="color_change_mini_player_instruction">You can change the color of the mini player in the settings. Available in white and black.</string>
+    <string name="label_color_mini_player">Mini player theme</string>
+    <string name="color_change_mini_player_instruction">You can change the theme of the mini player in the settings.</string>
         <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Classic Dark</string>
     <string name="app_widget_small_dark_name">2Music - Small Dark</string>

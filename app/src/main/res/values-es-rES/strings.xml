@@ -305,8 +305,16 @@ El contenido de las carpetas de la lista negra está oculto en tu biblioteca"</s
     <string name="purchase_text">Desbloquea funciones adicionales, como todos los colores del tema, tres temas (oscuro sin separadores, negro y negro sin separadores) y el temporizador de apagado.\n\nEl código fuente de 2Music está disponible en GitHub. Puede compilar la versión pro usted mismo de forma gratuita. Sin embargo, si desea apoyar el desarrollo y recibir actualizaciones a través de Google Play, considere comprar 2Music Pro.\n\nGracias,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Texto coloreado para pestañas y directorios</string>
     <string name="pref_summary_color_tab_text">Colorea la pestaña o carpeta activa con un color de acento.</string>
-    <string name="pref_title_color_mini_player">Color blanco o negro del mini reproductor</string>
-    <string name="pref_summary_color_mini_player">Cuando se enciende, colorea el fondo del mini reproductor en blanco.</string>
+    <string name="pref_title_color_mini_player">Tema mini jugador</string>
+    <string name="pref_summary_color_mini_player">El color del tema del mini jugador.</string>
+    <string name="pref_title_color_mini_player_icon">Icono de color mini jugador</string>
+    <string name="pref_summary_color_mini_player_icon">Colorea el icono del mini reproductor en el color de acento.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Blanco</string>
+    <string name="mini_player_gray_theme_name">Gris</string>
+    <string name="mini_player_dark_theme_name">Oscuro</string>
+    <string name="mini_player_black_theme_name">Negro</string>
+    <string name="mini_player_green_theme_name">Verde</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Atrás</string>
@@ -318,8 +326,8 @@ El contenido de las carpetas de la lista negra está oculto en tu biblioteca"</s
     <string name="dark_nodivider_theme_name">Oscuro (sin divisor)</string>
     <string name="black_nodivider_theme_name">Negro (no divider)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Mini jugador colores</string>
-    <string name="color_change_mini_player_instruction">Puede cambiar el color del mini reproductor en la configuración. Disponible en blanco y negro.</string>
+    <string name="label_color_mini_player">Tema mini jugador</string>
+    <string name="color_change_mini_player_instruction">Puede cambiar el tema del mini reproductor en la configuración.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Oscuro clásico</string>
     <string name="app_widget_small_dark_name">2Music - Pequeño oscuro</string>

@@ -254,8 +254,16 @@
     <string name="purchase_text">Ανοίγει πρόσθετες λειτουργίες, όπως όλα τα χρώματα του θέματος, τρία θέματα (σκοτεινό χωρίς διαχωριστικά, μαύρο και μαύρο χωρίς διαχωριστικά) και χρονοδιακόπτη ύπνου.\n\nΟ πηγαίος κώδικας 2Music είναι διαθέσιμος στο GitHub. Μπορείτε να συντάξετε μια επαγγελματική έκδοση δωρεάν. Ωστόσο, εάν θέλετε να υποστηρίξετε την ανάπτυξη και να λάβετε ενημερώσεις μέσω του Google Play, εξετάστε το ενδεχόμενο να αγοράσετε το 2Music Pro.\n\nΕυχαριστώ,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Έγχρωμο κείμενο για καρτέλες και καταλόγους</string>
     <string name="pref_summary_color_tab_text">Λεκιάζει την ενεργή καρτέλα ή το φάκελο με χρώμα έμφασης.</string>
-    <string name="pref_title_color_mini_player">Λευκό ή μαύρο χρώμα του mini player</string>
-    <string name="pref_summary_color_mini_player">Όταν είναι ενεργοποιημένο, χρωματίζει το φόντο του mini player σε λευκό.</string>
+    <string name="pref_title_color_mini_player">Θέμα μίνι παίκτη</string>
+    <string name="pref_summary_color_mini_player">Το χρώμα του μίνι παίκτη.</string>
+    <string name="pref_title_color_mini_player_icon">Έγχρωμο εικονίδιο μίνι παίκτη</string>
+    <string name="pref_summary_color_mini_player_icon">Χρωματίζει το εικονίδιο του μίνι παίκτη στο χρώμα της προφοράς.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">άσπρο</string>
+    <string name="mini_player_gray_theme_name">Γκρί</string>
+    <string name="mini_player_dark_theme_name">Σκοτάδι</string>
+    <string name="mini_player_black_theme_name">Μαύρος</string>
+    <string name="mini_player_green_theme_name">Πράσινος</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Εντάξει</string>
     <string name="md_back_label">Πίσω</string>
@@ -267,8 +275,8 @@
     <string name="dark_nodivider_theme_name">Σκούρο (χωρίς διαχωριστικά)</string>
     <string name="black_nodivider_theme_name">Μαύρο (χωρίς διαχωριστικά)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Μίνι player χρώματα</string>
-    <string name="color_change_mini_player_instruction">Μπορείτε να αλλάξετε το χρώμα του mini player στις ρυθμίσεις. Διατίθεται σε λευκό και μαύρο.</string>
+    <string name="label_color_mini_player">Θέμα μίνι παίκτη</string>
+    <string name="color_change_mini_player_instruction">Μπορείτε να αλλάξετε το θέμα του mini player στις ρυθμίσεις.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Κλασικό σκοτάδι</string>
     <string name="app_widget_small_dark_name">2Music - Λίγο σκοτεινό</string>

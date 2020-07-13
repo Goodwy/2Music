@@ -26,9 +26,10 @@ import java.util.List;
 
 public final class PreferenceUtil {
     public static final String GENERAL_THEME = "general_theme";
+    public static final String MINI_PLAYER_THEME = "mini_player_theme";
     public static final String REMEMBER_LAST_TAB = "remember_last_tab";
     public static final String COLOR_TAB_TEXT = "color_tab_text";
-    public static final String COLOR_MINI_PLAYER = "color_mini_player";
+    public static final String COLOR_MINI_PLAYER_ICON = "color_mini_player_icon";
     public static final String LAST_PAGE = "last_start_page";
     public static final String LAST_MUSIC_CHOOSER = "last_music_chooser";
     public static final String NOW_PLAYING_SCREEN_ID = "now_playing_screen_id";
@@ -158,6 +159,34 @@ public final class PreferenceUtil {
         }
     }
 
+    @StyleRes
+    public String getMiniPlayerTheme() {
+        return getMiniPlayerThemeResFromPrefValue(mPreferences.getString(MINI_PLAYER_THEME, "light"));
+    }
+
+    public void setMiniPlayerTheme(String theme) {
+        final SharedPreferences.Editor editor = mPreferences.edit();
+        editor.putString(MINI_PLAYER_THEME, theme);
+        editor.commit();
+    }
+
+    @StyleRes
+    public static String getMiniPlayerThemeResFromPrefValue(String themePrefValue) {
+        switch (themePrefValue) {
+            case "dark":
+                return "dark";
+            case "black":
+                return "black";
+            case "green":
+                return "green";
+            case "white":
+            default:
+                return "white";
+            case "gray":
+                return "gray";
+        }
+    }
+
     public final boolean rememberLastTab() {
         return mPreferences.getBoolean(REMEMBER_LAST_TAB, true);
     }
@@ -166,8 +195,8 @@ public final class PreferenceUtil {
         return mPreferences.getBoolean(COLOR_TAB_TEXT, true);
     }
 
-    public final boolean colorMiniPlayer() {
-        return mPreferences.getBoolean(COLOR_MINI_PLAYER, true);
+    public final boolean colorMiniPlayerIcon() {
+        return mPreferences.getBoolean(COLOR_MINI_PLAYER_ICON, true);
     }
 
     public void setLastPage(final int value) {

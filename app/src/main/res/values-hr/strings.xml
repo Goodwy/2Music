@@ -301,8 +301,16 @@
     <string name="purchase_text">Otključava dodatne značajke kao što su sve tematske boje, tri teme (tamna bez razdjelnika, crna i crna bez razdjelnika) i mjerač mirovanja.\n\nIzvorni kod 2Music dostupan je na GitHub-u. Nema na čemu možete sami sastaviti pro verziju. Međutim, ako želite podržati razvoj i primati ažuriranja putem Google Playa, razmislite o kupnji 2Music Pro-a.\n\nHvala vam,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Obojeni tekst za kartice i mape</string>
     <string name="pref_summary_color_tab_text">Boje aktivnu karticu ili mapu akcentnom bojom.</string>
-    <string name="pref_title_color_mini_player">Bijela ili crna boja mini playera</string>
-    <string name="pref_summary_color_mini_player">Kad je uključen, pozadinu mini playera obojite u bijelu.</string>
+    <string name="pref_title_color_mini_player">Tema mini playera</string>
+    <string name="pref_summary_color_mini_player">Boja teme mini playera.</string>
+    <string name="pref_title_color_mini_player_icon">Obojena ikona mini playera</string>
+    <string name="pref_summary_color_mini_player_icon">Oboji ikonu mini playera u akcentnu boju.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Bijela</string>
+    <string name="mini_player_gray_theme_name">Siva</string>
+    <string name="mini_player_dark_theme_name">Mrak</string>
+    <string name="mini_player_black_theme_name">Crno</string>
+    <string name="mini_player_green_theme_name">Zelena</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">leđa</string>
@@ -314,8 +322,8 @@
     <string name="dark_nodivider_theme_name">Tamna (nema razdjelnika)</string>
     <string name="black_nodivider_theme_name">Crna (nema razdjelnika)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Boje mini igrača</string>
-    <string name="color_change_mini_player_instruction">Možete promijeniti boju mini playera u postavkama. Dostupno u bijeloj i crnoj boji.</string>
+    <string name="label_color_mini_player">Tema mini playera</string>
+    <string name="color_change_mini_player_instruction">Tema mini playera možete promijeniti u postavkama.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Klasični tamna</string>
     <string name="app_widget_small_dark_name">2Music - Mali tamna</string>

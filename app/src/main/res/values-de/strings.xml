@@ -304,8 +304,16 @@
     <string name="purchase_text">Es öffnet zusätzliche Funktionen wie alle Farben des Themas, drei Themen (dunkel ohne Trennwände, schwarz und schwarz ohne Trennwände) und einen Sleep-Timer.\n\nDer Quellcode von 2Music ist auf GitHub verfügbar. Sie können die Pro-Version gerne kostenlos selbst kompilieren. Wenn Sie jedoch die Entwicklung unterstützen und Updates über Google Play erhalten möchten, sollten Sie 2Music Pro erwerben.\n\nVielen Dank,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Farbiger Text für Registerkarten und Verzeichnisse</string>
     <string name="pref_summary_color_tab_text">Färbt die aktive Registerkarte oder den aktiven Ordner mit einer Akzentfarbe.</string>
-    <string name="pref_title_color_mini_player">Weiße oder schwarze Farbe des Mini-Players</string>
-    <string name="pref_summary_color_mini_player">Beim Einschalten wird der Hintergrund des Mini-Players weiß gefärbt.</string>
+    <string name="pref_title_color_mini_player">Mini-Player-Thema</string>
+    <string name="pref_summary_color_mini_player">Die Mini-Player-Themenfarbe.</string>
+    <string name="pref_title_color_mini_player_icon">Farbiges Mini-Player-Symbol</string>
+    <string name="pref_summary_color_mini_player_icon">Färbt das Mini-Player-Symbol in der Akzentfarbe.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Weiß</string>
+    <string name="mini_player_gray_theme_name">Grau</string>
+    <string name="mini_player_dark_theme_name">Dunkel</string>
+    <string name="mini_player_black_theme_name">Schwarz</string>
+    <string name="mini_player_green_theme_name">Grün</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Zurück</string>
@@ -317,8 +325,8 @@
     <string name="dark_nodivider_theme_name">Dunkel (kein Teiler)</string>
     <string name="black_nodivider_theme_name">Schwarz (kein Teiler)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Mini-Player-Farben</string>
-    <string name="color_change_mini_player_instruction">Sie können die Farbe des Mini-Players in den Einstellungen ändern. Erhältlich in weiß und schwarz.</string>
+    <string name="label_color_mini_player">Mini Player Thema</string>
+    <string name="color_change_mini_player_instruction">Sie können das Thema des Mini-Players in den Einstellungen ändern.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Classic Dark</string>
     <string name="app_widget_small_dark_name">2Music - Kleine Dunkelheit</string>

@@ -301,8 +301,16 @@
     <string name="purchase_text">Unlocks extra features, such as all theme colors, three themes (dark without dividers, black and black without dividers) and the sleep timer.\n\nThe source code of 2Music is available on GitHub. You are welcome to compile the pro version yourself for free. However, if you want to support the development and receive updates through the Google Play, consider purchasing 2Music Pro.\n\nThank you,\nGoodwy</string>
     <string name="pref_title_color_tab_text">טקסט צבעוני עבור כרטיסיות וספריות</string>
     <string name="pref_summary_color_tab_text">צבע את הלשונית או התיקיה הפעילה בצבע מבטא.</string>
-    <string name="pref_title_color_mini_player">צבע לבן או שחור של הנגן מיני</string>
-    <string name="pref_summary_color_mini_player">כאשר הוא מופעל, הוא צובע את רקע נגן המיני בלבן.</string>
+    <string name="pref_title_color_mini_player">נושא מיני נגן</string>
+    <string name="pref_summary_color_mini_player">צבע הנושא של נגן המיני.</string>
+    <string name="pref_title_color_mini_player_icon">סמל נגן מיני צבעוני</string>
+    <string name="pref_summary_color_mini_player_icon">צבע את סמל נגן המיני בצבע המבטא.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">לבן</string>
+    <string name="mini_player_gray_theme_name">אפור</string>
+    <string name="mini_player_dark_theme_name">אפל</string>
+    <string name="mini_player_black_theme_name">שָׁחוֹר</string>
+    <string name="mini_player_green_theme_name">ירוק</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">בסדר</string>
     <string name="md_back_label">חזור</string>
@@ -314,8 +322,8 @@
     <string name="dark_nodivider_theme_name">כהה (אין מחלק)</string>
     <string name="black_nodivider_theme_name">שחור (אין מחלק)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">צבעי נגן מיני</string>
-    <string name="color_change_mini_player_instruction">באפשרותך לשנות את צבע נגן המיני בהגדרות. ניתן להשיג בשחור לבן.</string>
+    <string name="label_color_mini_player">נושא מיני נגן</string>
+    <string name="color_change_mini_player_instruction">באפשרותך לשנות את ערכת הנושא של נגן המיני בהגדרות.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - אפל קלאסי</string>
     <string name="app_widget_small_dark_name">2Music - כהה קטן</string>

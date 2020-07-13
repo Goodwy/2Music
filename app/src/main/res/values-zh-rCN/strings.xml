@@ -305,8 +305,16 @@
         谢谢，\nGoodwy</string>
     <string name="pref_title_color_tab_text">选项卡和目录的彩色文本</string>
     <string name="pref_summary_color_tab_text">使用强调色为活动的选项卡或文件夹上色。</string>
-    <string name="pref_title_color_mini_player">迷你播放器的白色或黑色</string>
-    <string name="pref_summary_color_mini_player">启用后，它将用白色将迷你播放器的背景上色。</string>
+    <string name="pref_title_color_mini_player">迷你播放器主题</string>
+    <string name="pref_summary_color_mini_player">迷你播放器主题颜色。</string>
+    <string name="pref_title_color_mini_player_icon">彩色的迷你播放器的图标</string>
+    <string name="pref_summary_color_mini_player_icon">用强调色为迷你播放器图标上色。</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">白色</string>
+    <string name="mini_player_gray_theme_name">灰色</string>
+    <string name="mini_player_dark_theme_name">暗色</string>
+    <string name="mini_player_black_theme_name">黑色</string>
+    <string name="mini_player_green_theme_name">绿色</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Back</string>
@@ -318,8 +326,8 @@
     <string name="dark_nodivider_theme_name">暗色 （无分隔线）</string>
     <string name="black_nodivider_theme_name">黑色 （无分隔线）</string>
     <!--Intro-->
-    <string name="label_color_mini_player">迷你播放器颜色</string>
-    <string name="color_change_mini_player_instruction">您可以在设置中更改迷你播放器的颜色。 有白色和黑色可供选择。</string>
+    <string name="label_color_mini_player">迷你播放器主题</string>
+    <string name="color_change_mini_player_instruction">您可以在设置中更改迷你播放器的主题。</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - 经典暗色</string>
     <string name="app_widget_small_dark_name">2Music - 小尺寸暗色</string>

@@ -305,8 +305,16 @@
     <string name="purchase_text">Sblocca funzionalità extra, come tutti i colori dei temi, tre temi (scuro senza divisori, nero e nero senza divisori) e il timer di spegnimento.\n\nIl codice sorgente di 2Music è disponibile su GitHub. Puoi compilare tu stesso la versione pro gratuitamente. Tuttavia, se desideri supportare lo sviluppo e ricevere aggiornamenti tramite Google Play, prendi in considerazione l\'acquisto di 2Music Pro.\n\nGrazie,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Testo colorato per schede e directory</string>
     <string name="pref_summary_color_tab_text">Colora la scheda o la cartella attiva con un colore di accento.</string>
-    <string name="pref_title_color_mini_player">Colore bianco o nero del mini player</string>
-    <string name="pref_summary_color_mini_player">Quando è acceso, colora lo sfondo del mini player in bianco.</string>
+    <string name="pref_title_color_mini_player">Tema mini player</string>
+    <string name="pref_summary_color_mini_player">Il colore del tema del mini player.</string>
+    <string name="pref_title_color_mini_player_icon">Icona colorata mini player</string>
+    <string name="pref_summary_color_mini_player_icon">Colora l\'icona del mini player con il colore dell\'accento.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Bianca</string>
+    <string name="mini_player_gray_theme_name">Grigio</string>
+    <string name="mini_player_dark_theme_name">Buio</string>
+    <string name="mini_player_black_theme_name">Nero</string>
+    <string name="mini_player_green_theme_name">Verde</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Indietro</string>
@@ -318,8 +326,8 @@
     <string name="dark_nodivider_theme_name">Scuro (nessun divisore)</string>
     <string name="black_nodivider_theme_name">Nero (nessun divisore)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Colori del mini player</string>
-    <string name="color_change_mini_player_instruction">Puoi cambiare il colore del mini player nelle impostazioni. Disponibile in bianco e nero.</string>
+    <string name="label_color_mini_player">Tema mini player</string>
+    <string name="color_change_mini_player_instruction">Puoi cambiare il tema del mini player nelle impostazioni.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Classico Buio</string>
     <string name="app_widget_small_dark_name">2Music - Piccolo Buio</string>

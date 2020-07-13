@@ -303,8 +303,16 @@
         Teşekkür ederim,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Sekmeler ve dizinler için renkli metin</string>
     <string name="pref_summary_color_tab_text">Etkin sekmeyi veya klasörü vurgu rengiyle renklendirir.</string>
-    <string name="pref_title_color_mini_player">Mini oynatıcının beyaz veya siyah rengi</string>
-    <string name="pref_summary_color_mini_player">Açıldığında, mini oynatıcının arka planını beyaz renklendirir.</string>
+    <string name="pref_title_color_mini_player">Mini oyuncu teması</string>
+    <string name="pref_summary_color_mini_player">Mini oyuncu tema rengi.</string>
+    <string name="pref_title_color_mini_player_icon">Renkli mini oyuncu simgesi</string>
+    <string name="pref_summary_color_mini_player_icon">Mini oynatıcı simgesini vurgu renginde renklendirir.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Beyaz</string>
+    <string name="mini_player_gray_theme_name">Gri</string>
+    <string name="mini_player_dark_theme_name">Karanlık</string>
+    <string name="mini_player_black_theme_name">Siyah</string>
+    <string name="mini_player_green_theme_name">Yeşil</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Back</string>
@@ -316,8 +324,8 @@
     <string name="dark_nodivider_theme_name">Koyu (bölücü yok)</string>
     <string name="black_nodivider_theme_name">Siyah (bölücü yok)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Mini oyuncu renkleri</string>
-    <string name="color_change_mini_player_instruction">Mini oynatıcının rengini ayarlardan değiştirebilirsiniz. Beyaz ve siyah renkleri mevcuttur.</string>
+    <string name="label_color_mini_player">Mini oyuncu teması</string>
+    <string name="color_change_mini_player_instruction">Mini oynatıcının temasını ayarlardan değiştirebilirsiniz.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Klasik Koyu</string>
     <string name="app_widget_small_dark_name">2Music - Küçük Koyu</string>

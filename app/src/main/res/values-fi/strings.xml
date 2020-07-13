@@ -304,8 +304,16 @@
     <string name="purchase_text">Lukitsee lisäominaisuudet, kuten kaikki teemavärit, kolme teemaa (tumma ilman jakajia, musta ja musta ilman jakajia) ja uniajastin.\n\n2Musicin lähdekoodi on saatavana GitHubissa. Voit ladata pro-version itse ilmaiseksi. Jos kuitenkin haluat tukea kehitystä ja saada päivityksiä Google Playn kautta, harkitse 2Music Pron ostamista.\n\nKiitos,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Värilehti välilehdille ja hakemistoille</string>
     <string name="pref_summary_color_tab_text">Värittää aktiivisen välilehden tai kansion korostusvärillä.</string>
-    <string name="pref_title_color_mini_player">Mini-soittimen valkoinen tai musta väri</string>
-    <string name="pref_summary_color_mini_player">Kun virta on kytketty, se värii minisoittimen taustan valkoisena.</string>
+    <string name="pref_title_color_mini_player">Mini-soittajan teema</string>
+    <string name="pref_summary_color_mini_player">Minisoittimen teemaväri.</string>
+    <string name="pref_title_color_mini_player_icon">Värillinen minisoittimen kuvake</string>
+    <string name="pref_summary_color_mini_player_icon">Värittää minisoittimen kuvakkeen korostusvärillä.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Valkoinen</string>
+    <string name="mini_player_gray_theme_name">Harmaa</string>
+    <string name="mini_player_dark_theme_name">Tumma</string>
+    <string name="mini_player_black_theme_name">Musta</string>
+    <string name="mini_player_green_theme_name">Vihreä</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Takaisin</string>
@@ -317,8 +325,8 @@
     <string name="dark_nodivider_theme_name">Tumma (ei jakajaa)</string>
     <string name="black_nodivider_theme_name">Musta (ei jakajaa)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Mini-soittimen värit</string>
-    <string name="color_change_mini_player_instruction">Voit muuttaa mini-soittimen väriä asetuksissa. Saatavana valkoisena ja mustana.</string>
+    <string name="label_color_mini_player">Mini-soittajan teema</string>
+    <string name="color_change_mini_player_instruction">Voit muuttaa mini-soittimen teeman asetuksissa.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Klassinen Tumma</string>
     <string name="app_widget_small_dark_name">2Music - Pieni Tumma</string>

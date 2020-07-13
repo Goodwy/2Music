@@ -303,8 +303,16 @@
         Mulțumesc,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Text colorat pentru file și directoare</string>
     <string name="pref_summary_color_tab_text">Culoează fila sau folderul activ cu o culoare de accent.</string>
-    <string name="pref_title_color_mini_player">Culoarea albă sau neagră a mini playerului</string>
-    <string name="pref_summary_color_mini_player">Când este pornit, acesta colorează fundalul mini playerului în alb.</string>
+    <string name="pref_title_color_mini_player">Tema mini-jucătorului</string>
+    <string name="pref_summary_color_mini_player">Culoarea temei mini playerului.</string>
+    <string name="pref_title_color_mini_player_icon">Pictograma mini player color</string>
+    <string name="pref_summary_color_mini_player_icon">Culoează pictograma mini playerului în culoarea accentului.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Alb</string>
+    <string name="mini_player_gray_theme_name">Gri</string>
+    <string name="mini_player_dark_theme_name">Întuneric</string>
+    <string name="mini_player_black_theme_name">Negru</string>
+    <string name="mini_player_green_theme_name">Verde</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Back</string>
@@ -317,7 +325,7 @@
     <string name="black_nodivider_theme_name">Negru (fără împărțitor)</string>
     <!--Intro-->
     <string name="label_color_mini_player">Culorile mini playerului</string>
-    <string name="color_change_mini_player_instruction">Puteți schimba culoarea mini playerului în setări. Disponibil în alb și negru.</string>
+    <string name="color_change_mini_player_instruction">Puteți schimba tema mini playerului în setări.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Clasic Întuneric</string>
     <string name="app_widget_small_dark_name">2Music - Mic Întuneric</string>

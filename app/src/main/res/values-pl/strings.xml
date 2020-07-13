@@ -303,8 +303,16 @@
         Dziękuję Ci,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Kolorowy tekst zakładek i katalogów</string>
     <string name="pref_summary_color_tab_text">Koloruje aktywną kartę lub folder kolorem akcentującym.</string>
-    <string name="pref_title_color_mini_player">Biały lub czarny kolor mini odtwarzacza</string>
-    <string name="pref_summary_color_mini_player">Po włączeniu kolor tła odtwarzacza mini jest biały.</string>
+    <string name="pref_title_color_mini_player">Motyw mini gracza</string>
+    <string name="pref_summary_color_mini_player">Kolor motywu mini odtwarzacza.</string>
+    <string name="pref_title_color_mini_player_icon">Kolorowa ikona mini gracza</string>
+    <string name="pref_summary_color_mini_player_icon">Kolor ikony mini odtwarzacza w kolorze akcentu.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Biały</string>
+    <string name="mini_player_gray_theme_name">Szary</string>
+    <string name="mini_player_dark_theme_name">Ciemny</string>
+    <string name="mini_player_black_theme_name">Czarny</string>
+    <string name="mini_player_green_theme_name">Zielony</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Back</string>
@@ -316,8 +324,8 @@
     <string name="dark_nodivider_theme_name">Ciemny (bez dzielnika)</string>
     <string name="black_nodivider_theme_name">Czarny (bez dzielnika)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Kolory mini odtwarzacza</string>
-    <string name="color_change_mini_player_instruction">Możesz zmienić kolor mini odtwarzacza w ustawieniach. Dostępne w kolorze białym i czarnym.</string>
+    <string name="label_color_mini_player">Motyw mini gracza</string>
+    <string name="color_change_mini_player_instruction">Możesz zmienić motyw mini odtwarzacza w ustawieniach.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Klasyczny Ciemny</string>
     <string name="app_widget_small_dark_name">2Music - Mały Ciemny</string>

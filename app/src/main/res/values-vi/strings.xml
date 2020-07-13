@@ -280,8 +280,16 @@
         Cảm ơn bạn,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Văn bản màu cho các tab và thư mục</string>
     <string name="pref_summary_color_tab_text">Tô màu cho tab hoạt động hoặc thư mục có màu nhấn.</string>
-    <string name="pref_title_color_mini_player">Màu trắng hoặc đen của máy nghe nhạc mini</string>
-    <string name="pref_summary_color_mini_player">Khi bật, nó tô màu nền của trình phát mini màu trắng.</string>
+    <string name="pref_title_color_mini_player">Chủ đề máy nghe nhạc mini</string>
+    <string name="pref_summary_color_mini_player">Màu chủ đề máy nghe nhạc mini.</string>
+    <string name="pref_title_color_mini_player_icon">Biểu tượng máy nghe nhạc mini màu</string>
+    <string name="pref_summary_color_mini_player_icon">Màu sắc biểu tượng máy nghe nhạc mini trong màu nhấn.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Trắng</string>
+    <string name="mini_player_gray_theme_name">Xám</string>
+    <string name="mini_player_dark_theme_name">Tối</string>
+    <string name="mini_player_black_theme_name">Đen</string>
+    <string name="mini_player_green_theme_name">Màu xanh lá</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Back</string>
@@ -293,8 +301,8 @@
     <string name="dark_nodivider_theme_name">Tối (không có dải phân cách)</string>
     <string name="black_nodivider_theme_name">Đen (không có dải phân cách)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Màu sắc máy nghe nhạc mini</string>
-    <string name="color_change_mini_player_instruction">Bạn có thể thay đổi màu của trình phát mini trong cài đặt. Có sẵn trong màu trắng và đen.</string>
+    <string name="label_color_mini_player">Chủ đề máy nghe nhạc mini</string>
+    <string name="color_change_mini_player_instruction">Bạn có thể thay đổi chủ đề của trình phát mini trong cài đặt.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Cổ điển Tối</string>
     <string name="app_widget_small_dark_name">2Music - Nhỏ Tối</string>

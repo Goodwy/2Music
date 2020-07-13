@@ -2,6 +2,7 @@ package com.goodwy.player.ui.fragments.player;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
@@ -58,10 +59,24 @@ public class MiniPlayerFragment extends AbsMusicServiceFragment implements Music
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        if (PreferenceUtil.getInstance(getContext()).colorMiniPlayer()) {
-            return inflater.inflate(R.layout.fragment_mini_player, container, false);
-        } else {
+        String miniPlayerColor = PreferenceUtil.getInstance(getActivity()).getMiniPlayerTheme();
+        String white = "white";
+        String gray = "gray";
+        String dark = "dark";
+        String black = "black";
+        String green = "green";
+        if (miniPlayerColor == white) {
+            return inflater.inflate(R.layout.fragment_mini_player_white, container, false);
+        } else if (miniPlayerColor == gray) {
+            return inflater.inflate(R.layout.fragment_mini_player_gray, container, false);
+        } else if (miniPlayerColor == dark) {
+            return inflater.inflate(R.layout.fragment_mini_player_dark, container, false);
+        } else if (miniPlayerColor == black) {
             return inflater.inflate(R.layout.fragment_mini_player_black, container, false);
+        } else if (miniPlayerColor == green) {
+            return inflater.inflate(R.layout.fragment_mini_player_green, container, false);
+        } else {
+            return inflater.inflate(R.layout.fragment_mini_player_white, container, false);
         }
     }
 
@@ -88,7 +103,11 @@ public class MiniPlayerFragment extends AbsMusicServiceFragment implements Music
     private void setUpPlayPauseButton() {
         miniPlayerPlayPauseDrawable = new PlayPauseDrawable(getActivity());
         miniPlayerPlayPauseButton.setImageDrawable(miniPlayerPlayPauseDrawable);
-        miniPlayerPlayPauseButton.setColorFilter(ThemeStore.accentColor(getActivity()));
+        if (PreferenceUtil.getInstance(getContext()).colorMiniPlayerIcon()) {
+            miniPlayerPlayPauseButton.setColorFilter(ThemeStore.accentColor(getActivity()));
+        } else {
+            miniPlayerPlayPauseButton.setColorFilter(ATHUtil.resolveColor(getActivity(), R.attr.iconColor, ThemeStore.textColorSecondary(getActivity())), PorterDuff.Mode.SRC_IN);
+        }
         miniPlayerPlayPauseButton.setOnClickListener(new PlayPauseButtonOnClickHandler());
     }
 

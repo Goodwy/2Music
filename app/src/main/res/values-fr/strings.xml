@@ -300,8 +300,16 @@
     <string name="purchase_text">Déverrouille des fonctionnalités supplémentaires, telles que toutes les couleurs de thème, trois thèmes (sombre sans séparateurs, noir et noir sans séparateurs) et la minuterie de mise en veille.\n\nLe code source de 2Music est disponible sur GitHub. Vous êtes invités à compiler vous-même la version pro gratuitement. Cependant, si vous souhaitez soutenir le développement et recevoir des mises à jour via Google Play, pensez à acheter 2Music Pro.\n\nMerci,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Texte en couleur pour les onglets et les répertoires</string>
     <string name="pref_summary_color_tab_text">Colore l\'onglet ou le dossier actif avec une couleur d\'accentuation.</string>
-    <string name="pref_title_color_mini_player">Couleur blanche ou noire du mini-lecteur</string>
-    <string name="pref_summary_color_mini_player">Lorsqu\'il est allumé, il colore l\'arrière-plan du mini-lecteur en blanc.</string>
+    <string name="pref_title_color_mini_player">Thème du mini-lecteur</string>
+    <string name="pref_summary_color_mini_player">La couleur du thème du mini-lecteur.</string>
+    <string name="pref_title_color_mini_player_icon">Icône de mini-lecteur coloré</string>
+    <string name="pref_summary_color_mini_player_icon">Colore l\'icône du mini-lecteur dans la couleur d\'accent.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Blanc</string>
+    <string name="mini_player_gray_theme_name">Gris</string>
+    <string name="mini_player_dark_theme_name">Sombre</string>
+    <string name="mini_player_black_theme_name">Noir</string>
+    <string name="mini_player_green_theme_name">Vert</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Retour</string>
@@ -313,8 +321,8 @@
     <string name="dark_nodivider_theme_name">Sombre (pas de séparation)</string>
     <string name="black_nodivider_theme_name">Noir (pas de séparation)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Couleurs du mini-joueur</string>
-    <string name="color_change_mini_player_instruction">Vous pouvez changer la couleur du mini-lecteur dans les paramètres. Disponible en blanc et noir.</string>
+    <string name="label_color_mini_player">Thème du mini-lecteur</string>
+    <string name="color_change_mini_player_instruction">Vous pouvez changer le thème du mini-lecteur dans les paramètres.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Classique foncé</string>
     <string name="app_widget_small_dark_name">2Music - Petit foncé</string>

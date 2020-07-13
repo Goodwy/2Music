@@ -301,8 +301,16 @@
     <string name="purchase_text">Kinyit egy extra funkciót, például az összes témaszínt, három témát (sötét elválasztó nélkül, fekete és fekete elválasztó nélkül) és az alvásidőzítőt.\n\nA 2Music forráskódja elérhető a GitHub-on. Üdvözöljük Önt, hogy ingyenesen készítse el a profi verziót. Ha azonban támogatni szeretné a fejlesztést és frissítéseket szeretne kapni a Google Playen, fontolja meg a 2Music Pro vásárlását.\n\nKöszönöm,\nGoodwy</string>
     <string name="pref_title_color_tab_text">Színes szöveg a fülekhez és a könyvtárakhoz</string>
     <string name="pref_summary_color_tab_text">Az aktív lapot vagy mappát ékezetes színnel színezi.</string>
-    <string name="pref_title_color_mini_player">A mini-lejátszó fehér vagy fekete színű</string>
-    <string name="pref_summary_color_mini_player">Bekapcsoláskor fehér színűre színezi a mini lejátszó hátterét.</string>
+    <string name="pref_title_color_mini_player">Mini lejátszó téma</string>
+    <string name="pref_summary_color_mini_player">A mini lejátszó téma színe.</string>
+    <string name="pref_title_color_mini_player_icon">Színes mini játékos ikonra</string>
+    <string name="pref_summary_color_mini_player_icon">Színezi a mini lejátszó ikont az ékezetes színben.</string>
+    <!--ThemeMiniPlayer-->
+    <string name="mini_player_white_theme_name">Fehér</string>
+    <string name="mini_player_gray_theme_name">Szürke</string>
+    <string name="mini_player_dark_theme_name">Sötét</string>
+    <string name="mini_player_black_theme_name">Fekete</string>
+    <string name="mini_player_green_theme_name">Zöld</string>
     <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Back</string>
@@ -314,8 +322,8 @@
     <string name="dark_nodivider_theme_name">Sötét (nincs elválasztó)</string>
     <string name="black_nodivider_theme_name">Fekete (nincs elválasztó)</string>
     <!--Intro-->
-    <string name="label_color_mini_player">Mini lejátszó színei</string>
-    <string name="color_change_mini_player_instruction">A mini lejátszó színét megváltoztathatja a beállításokban. Fehér és fekete színben kapható.</string>
+    <string name="label_color_mini_player">Mini lejátszó téma</string>
+    <string name="color_change_mini_player_instruction">A mini lejátszó témáját a beállításokban módosíthatja.</string>
     <!--Widget-->
     <string name="app_widget_classic_dark_name">2Music - Klasszikus Sötét</string>
     <string name="app_widget_small_dark_name">2Music - Kicsi Sötét</string>
