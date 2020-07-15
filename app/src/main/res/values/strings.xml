@@ -326,6 +326,9 @@
     <string name="mini_player_dark_theme_name">Dark</string>
     <string name="mini_player_black_theme_name">Black</string>
     <string name="mini_player_green_theme_name">Green</string>
+    <string name="mini_player_blue_theme_name">Blue</string>
+    <string name="mini_player_red_theme_name">Red</string>
+    <string name="mini_player_yellow_theme_name">Yellow</string>
         <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Back</string>
@@ -343,4 +346,7 @@
     <string name="app_widget_classic_dark_name">2Music - Classic Dark</string>
     <string name="app_widget_small_dark_name">2Music - Small Dark</string>
     <string name="app_widget_card_dark_name">2Music - Card Dark</string>
+        <!--Tag-->
+    <string name="composer">Composer</string>
+    <string name="sort_order_composer">Composer</string>
 </resources>

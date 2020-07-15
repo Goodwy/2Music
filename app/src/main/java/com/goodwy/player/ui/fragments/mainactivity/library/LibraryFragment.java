@@ -369,7 +369,9 @@ public class LibraryFragment extends AbsMainActivityFragment implements CabHolde
             sortOrderMenu.add(0, R.id.action_song_sort_order_desc, 1, R.string.sort_order_z_a)
                     .setChecked(currentSortOrder.equals(SortOrder.SongSortOrder.SONG_Z_A));
             sortOrderMenu.add(0, R.id.action_song_sort_order_artist, 2, R.string.sort_order_artist)
-                    .setChecked(currentSortOrder.equals(SortOrder.SongSortOrder.SONG_ARTIST));
+                    .setChecked(currentSortOrder.equals(SortOrder.SongSortOrder.SONG_ARTIST));;
+            sortOrderMenu.add(0, R.id.action_song_sort_order_composer, 2, R.string.sort_order_composer)
+                    .setChecked(currentSortOrder.equals(SortOrder.SongSortOrder.SONG_COMPOSER));
             sortOrderMenu.add(0, R.id.action_song_sort_order_album, 3, R.string.sort_order_album)
                     .setChecked(currentSortOrder.equals(SortOrder.SongSortOrder.SONG_ALBUM));
             sortOrderMenu.add(0, R.id.action_song_sort_order_year, 4, R.string.sort_order_year)
@@ -415,6 +417,9 @@ public class LibraryFragment extends AbsMainActivityFragment implements CabHolde
                     break;
                 case R.id.action_song_sort_order_artist:
                     sortOrder = SortOrder.SongSortOrder.SONG_ARTIST;
+                    break;
+                case R.id.action_song_sort_order_composer:
+                    sortOrder = SortOrder.SongSortOrder.SONG_COMPOSER;
                     break;
                 case R.id.action_song_sort_order_album:
                     sortOrder = SortOrder.SongSortOrder.SONG_ALBUM;

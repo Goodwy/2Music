@@ -65,15 +65,15 @@
     </style>
     <!-- Dark theme-->
     <style name="Theme.2Music.Base.Dark" parent="@style/Theme.2Music.Base">
-        <item name="android:windowBackground">#1e2225</item>
-        <item name="dividerColor">#3f4346</item>
+        <item name="android:windowBackground">#121212</item>
+        <item name="dividerColor">#282a2c</item>
         <item name="defaultFooterColor">#393a3f</item>
         <item name="cardBackgroundColor">#2c2d31</item>
         <item name="md_background_color">#2c2d31</item>
     </style>
     <!-- Dark No Divider theme-->
     <style name="Theme.2Music.Base.Dark.NoDivider" parent="@style/Theme.2Music.Base">
-        <item name="android:windowBackground">#1e2225</item>
+        <item name="android:windowBackground">#121212</item>
         <item name="dividerColor">@android:color/transparent</item>
         <item name="defaultFooterColor">#393a3f</item>
         <item name="cardBackgroundColor">#2c2d31</item>
@@ -82,7 +82,7 @@
     <!-- Black theme-->
     <style name="Theme.2Music.Base.Black" parent="@style/Theme.2Music.Base">
         <item name="android:windowBackground">#080808</item>
-        <item name="dividerColor">#3f4346</item>
+        <item name="dividerColor">#282a2c</item>
         <item name="defaultFooterColor">@color/md_grey_800</item>
         <item name="cardBackgroundColor">@color/md_grey_900</item>
         <item name="md_background_color">@color/md_grey_900</item>

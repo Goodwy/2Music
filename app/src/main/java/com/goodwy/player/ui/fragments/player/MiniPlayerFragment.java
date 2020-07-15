@@ -65,6 +65,9 @@ public class MiniPlayerFragment extends AbsMusicServiceFragment implements Music
         String dark = "dark";
         String black = "black";
         String green = "green";
+        String red = "red";
+        String yellow = "yellow";
+        String blue = "blue";
         if (miniPlayerColor == white) {
             return inflater.inflate(R.layout.fragment_mini_player_white, container, false);
         } else if (miniPlayerColor == gray) {
@@ -75,6 +78,12 @@ public class MiniPlayerFragment extends AbsMusicServiceFragment implements Music
             return inflater.inflate(R.layout.fragment_mini_player_black, container, false);
         } else if (miniPlayerColor == green) {
             return inflater.inflate(R.layout.fragment_mini_player_green, container, false);
+        } else if (miniPlayerColor == red) {
+            return inflater.inflate(R.layout.fragment_mini_player_red, container, false);
+        } else if (miniPlayerColor == yellow) {
+            return inflater.inflate(R.layout.fragment_mini_player_yellow, container, false);
+        } else if (miniPlayerColor == blue) {
+            return inflater.inflate(R.layout.fragment_mini_player_blue, container, false);
         } else {
             return inflater.inflate(R.layout.fragment_mini_player_white, container, false);
         }

@@ -80,6 +80,9 @@ public final class SortOrder {
         /* Song sort order artist */
         String SONG_ARTIST = MediaStore.Audio.Artists.DEFAULT_SORT_ORDER;
 
+        /* Song sort order artist */
+        String SONG_COMPOSER = MediaStore.Audio.Media.COMPOSER;
+
         /* Song sort order album */
         String SONG_ALBUM = MediaStore.Audio.Albums.DEFAULT_SORT_ORDER;
 

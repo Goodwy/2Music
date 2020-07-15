@@ -331,4 +331,7 @@
     <string name="app_widget_classic_dark_name">2Music - Классический темный</string>
     <string name="app_widget_small_dark_name">2Music - Маленький темный</string>
     <string name="app_widget_card_dark_name">2Music - Карточка темный</string>
+        <!--Tag-->
+    <string name="composer">Композитор</string>
+    <string name="sort_order_composer">Композитор</string>
 </resources>

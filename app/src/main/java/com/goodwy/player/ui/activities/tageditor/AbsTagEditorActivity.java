@@ -460,6 +460,15 @@ public abstract class AbsTagEditorActivity extends AbsBaseActivity {
     }
 
     @Nullable
+    protected String getComposerName() {
+        try {
+            return getAudioFile(songPaths.get(0)).getTagOrCreateAndSetDefault().getFirst(FieldKey.COMPOSER);
+        } catch (Exception ignored) {
+            return null;
+        }
+    }
+
+    @Nullable
     protected String getAlbumArtistName() {
         try {
             return getAudioFile(songPaths.get(0)).getTagOrCreateAndSetDefault().getFirst(FieldKey.ALBUM_ARTIST);

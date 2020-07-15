@@ -23,7 +23,10 @@
         <item>@string/mini_player_gray_theme_name</item>
         <item>@string/mini_player_dark_theme_name</item>
         <item>@string/mini_player_black_theme_name</item>
+        <item>@string/mini_player_red_theme_name</item>
+        <item>@string/mini_player_yellow_theme_name</item>
         <item>@string/mini_player_green_theme_name</item>
+        <item>@string/mini_player_blue_theme_name</item>
     </string-array>
 
     <string-array name="pref_mini_player_theme_list_values">
@@ -31,7 +34,10 @@
         <item>gray</item>
         <item>dark</item>
         <item>black</item>
+        <item>red</item>
+        <item>yellow</item>
         <item>green</item>
+        <item>blue</item>
     </string-array>
 
     <string-array name="pref_auto_download_images_titles">

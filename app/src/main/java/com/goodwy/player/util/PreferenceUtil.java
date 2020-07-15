@@ -179,6 +179,12 @@ public final class PreferenceUtil {
                 return "black";
             case "green":
                 return "green";
+            case "red":
+                return "red";
+            case "yellow":
+                return "yellow";
+            case "blue":
+                return "blue";
             case "white":
             default:
                 return "white";
