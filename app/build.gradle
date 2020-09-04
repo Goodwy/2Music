@@ -44,8 +44,8 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         applicationId 'com.goodwy.player'
-        versionCode 104
-        versionName '1.0.4'
+        versionCode 106
+        versionName '1.0.6'
     }
     signingConfigs {
         release {

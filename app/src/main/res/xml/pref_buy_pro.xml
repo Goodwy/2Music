@@ -1,0 +1,15 @@
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.kabouzeid.appthemehelper.common.prefs.supportv7.ATEPreferenceCategory android:title="@string/pref_header_buy_pro">
+
+        <com.kabouzeid.appthemehelper.common.prefs.supportv7.ATESwitchPreference
+            app:iconSpaceReserved="false"
+            android:defaultValue="true"
+            android:key="hide_menu_buy_pro"
+            android:summary="@string/pref_summary_hide_menu_buy_pro"
+            android:title="@string/pref_title_hide_menu_buy_pro" />
+
+    </com.kabouzeid.appthemehelper.common.prefs.supportv7.ATEPreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

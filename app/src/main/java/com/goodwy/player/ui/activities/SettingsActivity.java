@@ -151,6 +151,9 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
 
         @Override
         public void onCreatePreferences(Bundle bundle, String s) {
+            if (!App.isProVersion()) {
+            addPreferencesFromResource(R.xml.pref_buy_pro);
+            }
             addPreferencesFromResource(R.xml.pref_library);
             addPreferencesFromResource(R.xml.pref_colors);
             addPreferencesFromResource(R.xml.pref_notification);
@@ -646,27 +649,25 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
             }
 
             TwoStatePreference colorTabText = (TwoStatePreference) findPreference("color_tab_text");
-            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-                colorTabText.setVisible(false);
-            } else {
-                colorTabText.setChecked(ThemeStore.autoGeneratePrimaryDark(getActivity()));
                 colorTabText.setOnPreferenceChangeListener((preference, newValue) -> {
                     ThemeStore.editTheme(getActivity())
-                            .autoGeneratePrimaryDark((Boolean) newValue)
                             .commit();
                     getActivity().recreate();
                     return true;
                 });
-            }
 
             TwoStatePreference colorMiniPlayerIcon = (TwoStatePreference) findPreference("color_mini_player_icon");
-            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-                colorMiniPlayerIcon.setVisible(false);
-            } else {
-                colorMiniPlayerIcon.setChecked(ThemeStore.coloredStatusBar(getActivity()));
                 colorMiniPlayerIcon.setOnPreferenceChangeListener((preference, newValue) -> {
                     ThemeStore.editTheme(getActivity())
-                            .coloredStatusBar((Boolean) newValue)
+                            .commit();
+                    getActivity().recreate();
+                    return true;
+                });
+
+            if (!App.isProVersion()) {
+                TwoStatePreference hideMenuBuyPro = (TwoStatePreference) findPreference("hide_menu_buy_pro");
+                hideMenuBuyPro.setOnPreferenceChangeListener((preference, newValue) -> {
+                    ThemeStore.editTheme(getActivity())
                             .commit();
                     getActivity().recreate();
                     return true;

@@ -43,6 +43,7 @@ import com.goodwy.player.ui.activities.base.AbsSlidingMusicPanelActivity;
 import com.goodwy.player.ui.activities.intro.AppIntroActivity;
 import com.goodwy.player.ui.fragments.mainactivity.folders.FoldersFragment;
 import com.goodwy.player.ui.fragments.mainactivity.library.LibraryFragment;
+import com.goodwy.player.dialogs.SleepTimerDialog;
 import com.goodwy.player.util.MusicUtil;
 import com.goodwy.player.util.PreferenceUtil;
 import com.goodwy.player.util.NavigationUtil;
@@ -194,6 +195,9 @@ public class MainActivity extends AbsSlidingMusicPanelActivity {
                 case R.id.nav_equalizer:
                     NavigationUtil.openEqualizer(this);
                     break;
+                case R.id.action_sleep_timer:
+                    new SleepTimerDialog().show(getSupportFragmentManager(), "SET_SLEEP_TIMER");
+                    break;
                 case R.id.nav_settings:
                     new Handler().postDelayed(() -> startActivity(new Intent(MainActivity.this, SettingsActivity.class)), 200);
                     break;
@@ -206,7 +210,7 @@ public class MainActivity extends AbsSlidingMusicPanelActivity {
     }
 
     private void checkSetUpPro() {
-        navigationView.getMenu().setGroupVisible(R.id.navigation_drawer_menu_category_buy_pro, !App.isProVersion());
+        navigationView.getMenu().setGroupVisible(R.id.navigation_drawer_menu_category_buy_pro, (!App.isProVersion()&&PreferenceUtil.getInstance(this).hideMenuBuyPro()));
     }
 
     private void setUpDrawerLayout() {

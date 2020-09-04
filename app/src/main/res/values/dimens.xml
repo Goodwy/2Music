@@ -7,6 +7,7 @@
     <dimen name="title_view_height">72dp</dimen>
     <dimen name="toolbar_elevation">4dp</dimen>
     <dimen name="card_elevation">0dp</dimen>
+    <dimen name="card_elevation_material">2dp</dimen>
 
     <!-- 3x standard action bar height (56dp) -->
     <dimen name="toolbar_scrim_height">168dp</dimen>

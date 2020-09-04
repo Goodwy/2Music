@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/mini_player_height"
-    android:background="?android:windowBackground"
+    android:background="?cardBackgroundColor"
     android:clickable="true"
     android:focusable="false"
     android:transitionName="@string/transition_mini_player"
@@ -13,9 +13,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:background="@drawable/mini_bg"
-        android:theme="@style/Theme.2Music.Base.Light">
+        android:orientation="horizontal">
 
         <com.goodwy.player.views.IconImageView
             android:id="@+id/mini_player_image"

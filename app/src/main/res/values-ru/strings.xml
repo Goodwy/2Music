@@ -308,12 +308,19 @@
     <string name="pref_summary_color_mini_player">Цвет темы мини плеера.</string>
     <string name="pref_title_color_mini_player_icon">Цветная иконка на мини плеере</string>
     <string name="pref_summary_color_mini_player_icon">Окрашивает иконку воспроизведения/пауза акцентным цветом.</string>
+    <string name="pref_header_buy_pro">2Music Pro</string>
+    <string name="pref_summary_hide_menu_buy_pro">Показывает кнопку Купить 2Music Pro в боковом меню.</string>
+    <string name="pref_title_hide_menu_buy_pro">Показать кнопку Купить 2Music Pro</string>
     <!--ThemeMiniPlayer-->
-    <string name="mini_player_white_theme_name">Белый</string>
-    <string name="mini_player_gray_theme_name">Серый</string>
-    <string name="mini_player_dark_theme_name">Темный</string>
-    <string name="mini_player_black_theme_name">Черный</string>
-    <string name="mini_player_green_theme_name">Зеленый</string>
+    <string name="mini_player_material_theme_name">Классическая (Динамический цвет)</string>
+    <string name="mini_player_white_theme_name">Белая</string>
+    <string name="mini_player_gray_theme_name">Серая</string>
+    <string name="mini_player_dark_theme_name">Темная</string>
+    <string name="mini_player_black_theme_name">Черная</string>
+    <string name="mini_player_green_theme_name">Зеленая</string>
+    <string name="mini_player_blue_theme_name">Голубая</string>
+    <string name="mini_player_red_theme_name">Красная</string>
+    <string name="mini_player_yellow_theme_name">Желтая</string>
         <!--ColorChooserDialog-->
     <string name="md_done_label">Ok</string>
     <string name="md_back_label">Назад</string>

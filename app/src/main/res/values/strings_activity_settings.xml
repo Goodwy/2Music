@@ -19,6 +19,7 @@
     </string-array>
 
     <string-array name="pref_mini_player_theme_list_titles">
+        <item>@string/mini_player_material_theme_name</item>
         <item>@string/mini_player_white_theme_name</item>
         <item>@string/mini_player_gray_theme_name</item>
         <item>@string/mini_player_dark_theme_name</item>
@@ -30,6 +31,7 @@
     </string-array>
 
     <string-array name="pref_mini_player_theme_list_values">
+        <item>material</item>
         <item>white</item>
         <item>gray</item>
         <item>dark</item>

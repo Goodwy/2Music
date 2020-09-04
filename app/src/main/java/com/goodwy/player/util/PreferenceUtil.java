@@ -33,6 +33,7 @@ public final class PreferenceUtil {
     public static final String LAST_PAGE = "last_start_page";
     public static final String LAST_MUSIC_CHOOSER = "last_music_chooser";
     public static final String NOW_PLAYING_SCREEN_ID = "now_playing_screen_id";
+    public static final String HIDE_MENU_BUY_PRO = "hide_menu_buy_pro";
 
     public static final String ARTIST_SORT_ORDER = "artist_sort_order";
     public static final String ARTIST_SONG_SORT_ORDER = "artist_song_sort_order";
@@ -173,6 +174,8 @@ public final class PreferenceUtil {
     @StyleRes
     public static String getMiniPlayerThemeResFromPrefValue(String themePrefValue) {
         switch (themePrefValue) {
+            case "material":
+                return "material";
             case "dark":
                 return "dark";
             case "black":
@@ -195,6 +198,10 @@ public final class PreferenceUtil {
 
     public final boolean rememberLastTab() {
         return mPreferences.getBoolean(REMEMBER_LAST_TAB, true);
+    }
+
+    public final boolean hideMenuBuyPro() {
+        return mPreferences.getBoolean(HIDE_MENU_BUY_PRO, true);
     }
 
     public final boolean colorTabText() {

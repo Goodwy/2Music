@@ -320,7 +320,11 @@
     <string name="pref_summary_color_mini_player">The mini player theme color.</string>
     <string name="pref_title_color_mini_player_icon">Colored mini player icon</string>
     <string name="pref_summary_color_mini_player_icon">Colors the mini player icon in the accent color.</string>
+    <string name="pref_header_buy_pro">2Music Pro</string>
+    <string name="pref_summary_hide_menu_buy_pro">Shows the Buy 2Music Pro button in the side menu.</string>
+    <string name="pref_title_hide_menu_buy_pro">Show Buy 2Music Pro</string>
         <!--ThemeMiniPlayer-->
+    <string name="mini_player_material_theme_name">Material (Dynamic Colors)</string>
     <string name="mini_player_white_theme_name">White</string>
     <string name="mini_player_gray_theme_name">Gray</string>
     <string name="mini_player_dark_theme_name">Dark</string>

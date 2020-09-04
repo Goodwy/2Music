@@ -60,6 +60,7 @@ public class MiniPlayerFragment extends AbsMusicServiceFragment implements Music
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         String miniPlayerColor = PreferenceUtil.getInstance(getActivity()).getMiniPlayerTheme();
+        String material = "material";
         String white = "white";
         String gray = "gray";
         String dark = "dark";
@@ -68,7 +69,9 @@ public class MiniPlayerFragment extends AbsMusicServiceFragment implements Music
         String red = "red";
         String yellow = "yellow";
         String blue = "blue";
-        if (miniPlayerColor == white) {
+        if (miniPlayerColor == material) {
+            return inflater.inflate(R.layout.fragment_mini_player_material, container, false);
+        } else if (miniPlayerColor == white) {
             return inflater.inflate(R.layout.fragment_mini_player_white, container, false);
         } else if (miniPlayerColor == gray) {
             return inflater.inflate(R.layout.fragment_mini_player_gray, container, false);
