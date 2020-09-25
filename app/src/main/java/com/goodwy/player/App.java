@@ -11,6 +11,7 @@ import com.anjlab.android.iab.v3.BillingProcessor;
 import com.anjlab.android.iab.v3.TransactionDetails;
 import com.kabouzeid.appthemehelper.ThemeStore;
 import com.goodwy.player.appshortcuts.DynamicShortcutManager;
+import com.goodwy.player.util.PreferenceUtil;
 
 import java.lang.ref.WeakReference;
 
@@ -22,6 +23,9 @@ public class App extends Application {
 
     public static final String GOOGLE_PLAY_LICENSE_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApu0LzpBoTapmzqhzjN6MAXukOcHeu+CqUydizibzKUPIbvfSnCD7Vgog+dSHieXwG/OGKt5ZazmUs1it7XuyyYWoGIpubs5BuhS1BvKR7wrITV0BTnHzKXzrGHqQS85XByB7zWFrT+otooAxo+1OQoJu4kZ8sragpQwYIvoaRk4InkMeFE68k4NLVY9cA6fjv0wPhcLayMTv/x2R0X6La4Yl9mE4azzKKJOWcmgqThhNrCXOk+WzBNCcyM+nW/KpyfMc1f1qVEYeiuDfjtQH1q8zKOivR0hMWTDcJ3NE4dPgJzVM8NrvfYdJqk0h3v3uQd4TdYI313pRTp4NFGAzUQIDAQAB";
     public static final String PRO_VERSION_PRODUCT_ID = "pro_version";
+    public static final String PRO_VERSION_1_PRODUCT_ID = "pro_version_1";
+    public static final String PRO_VERSION_2_PRODUCT_ID = "pro_version_2";
+    public static final String PRO_VERSION_3_PRODUCT_ID = "pro_version_3";
 
     private static App app;
 
@@ -70,7 +74,7 @@ public class App extends Application {
     }
 
     public static boolean isProVersion() {
-        return BuildConfig.DEBUG || app.billingProcessor.isPurchased(PRO_VERSION_PRODUCT_ID);
+        return BuildConfig.DEBUG || app.billingProcessor.isPurchased(PRO_VERSION_PRODUCT_ID) || app.billingProcessor.isPurchased(PRO_VERSION_1_PRODUCT_ID) || app.billingProcessor.isPurchased(PRO_VERSION_2_PRODUCT_ID) || app.billingProcessor.isPurchased(PRO_VERSION_3_PRODUCT_ID);
     }
 
     private static OnProVersionChangedListener onProVersionChangedListener;

@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.anjlab.android.iab.v3.BillingProcessor;
 import com.anjlab.android.iab.v3.TransactionDetails;
+import com.goodwy.player.dialogs.DonationsDialog;
 import com.kabouzeid.appthemehelper.color.MaterialColor;
 import com.goodwy.player.App;
 import com.goodwy.player.R;
@@ -65,7 +66,8 @@ public class PurchaseActivity extends AbsBaseActivity implements BillingProcesso
         });
 
         purchaseButton.setOnClickListener(v -> {
-            billingProcessor.purchase(PurchaseActivity.this, App.PRO_VERSION_PRODUCT_ID);
+        /*    billingProcessor.purchase(PurchaseActivity.this, App.PRO_VERSION_PRODUCT_ID);*/
+            DonationsDialog.create().show(getSupportFragmentManager(), "DONATION_DIALOG");
         });
 
         billingProcessor = new BillingProcessor(this, App.GOOGLE_PLAY_LICENSE_KEY, this);

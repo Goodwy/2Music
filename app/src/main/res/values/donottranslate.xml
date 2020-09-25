@@ -18,12 +18,10 @@
     <string name="flat" translatable="false">Flat</string>
 
     <string-array name="donation_ids" translatable="false">
-        <item>donation_1</item>
-        <item>donation_2</item>
-        <item>donation_3</item>
-        <item>donation_4</item>
-        <item>donation_5</item>
-        <item>donation_6</item>
+        <item>pro_version</item>
+        <item>pro_version_1</item>
+        <item>pro_version_2</item>
+        <item>pro_version_3</item>
     </string-array>
 
     <string name="license_dialog_style" translatable="false">

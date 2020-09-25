@@ -9,6 +9,7 @@ import android.preference.PreferenceManager;
 import androidx.annotation.NonNull;
 import androidx.annotation.StyleRes;
 
+import com.goodwy.player.BuildConfig;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
@@ -34,6 +35,7 @@ public final class PreferenceUtil {
     public static final String LAST_MUSIC_CHOOSER = "last_music_chooser";
     public static final String NOW_PLAYING_SCREEN_ID = "now_playing_screen_id";
     public static final String HIDE_MENU_BUY_PRO = "hide_menu_buy_pro";
+    public static final String DEV_BUY_PRO = "dev_buy_pro";
 
     public static final String ARTIST_SORT_ORDER = "artist_sort_order";
     public static final String ARTIST_SONG_SORT_ORDER = "artist_song_sort_order";
@@ -202,6 +204,10 @@ public final class PreferenceUtil {
 
     public final boolean hideMenuBuyPro() {
         return mPreferences.getBoolean(HIDE_MENU_BUY_PRO, true);
+    }
+
+    public final boolean devBuyPro() {
+        return mPreferences.getBoolean(DEV_BUY_PRO, false);
     }
 
     public final boolean colorTabText() {

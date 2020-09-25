@@ -162,6 +162,9 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
             addPreferencesFromResource(R.xml.pref_lockscreen);
             addPreferencesFromResource(R.xml.pref_audio);
             addPreferencesFromResource(R.xml.pref_playlists);
+/**           if (!App.isProVersion()) {
+                addPreferencesFromResource(R.xml.pref_dev);
+            }*/
 /**            addPreferencesFromResource(R.xml.pref_blacklist);*/
         }
 
@@ -191,6 +194,10 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
             super.onDestroyView();
             PreferenceUtil.getInstance(getActivity()).unregisterOnSharedPreferenceChangedListener(this);
         }
+/*
+        public boolean isDevVersion() {
+            return PreferenceUtil.getInstance(getContext()).devBuyPro();
+        }*/
 
         private void invalidateSettings() {
             final Preference generalTheme = findPreference("general_theme");
@@ -673,6 +680,16 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
                     return true;
                 });
             }
+/**
+            if (!App.isProVersion()) {
+                TwoStatePreference devBuyPro = (TwoStatePreference) findPreference("dev_buy_pro");
+                devBuyPro.setOnPreferenceChangeListener((preference, newValue) -> {
+                    ThemeStore.editTheme(getActivity())
+                            .commit();
+                    getActivity().recreate();
+                    return true;
+                });
+            }*/
 
 /**            final Preference equalizer = findPreference("equalizer");
             if (!hasEqualizer()) {

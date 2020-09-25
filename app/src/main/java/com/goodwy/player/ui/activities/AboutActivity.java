@@ -30,7 +30,7 @@ import butterknife.ButterKnife;
 import de.psdev.licensesdialog.LicensesDialog;
 
 @SuppressWarnings("FieldCanBeLocal")
-public class AboutActivity extends AbsBaseActivity implements View.OnClickListener {
+public class AboutActivity extends AbsBaseActivity implements View.OnClickListener, View.OnLongClickListener {
 
     private static String GITHUB = "https://github.com/Goodwy/2Music";
 
@@ -62,6 +62,8 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
     Toolbar toolbar;
     @BindView(R.id.app_version)
     TextView appVersion;
+    @BindView(R.id.version)
+    LinearLayout version;
     @BindView(R.id.changelog)
     LinearLayout changelog;
     @BindView(R.id.intro)
@@ -142,6 +144,7 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
 
     private void setUpOnClickListeners() {
         changelog.setOnClickListener(this);
+        version.setOnLongClickListener(this);
         intro.setOnClickListener(this);
         licenses.setOnClickListener(this);
         followOnTwitter.setOnClickListener(this);
@@ -241,6 +244,14 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
         } else if (v == autorWebsite) {
             openUrl(WEBSITE);
         }
+    }
+
+    @Override
+    public boolean onLongClick(View view) {
+        if (view == version) {
+            ChangelogDialog.create().show(getSupportFragmentManager(), "CHANGELOG_DIALOG");
+        }
+        return true;
     }
 
     private void openUrl(String url) {
